@@ -87,11 +87,11 @@ class InfoCard extends StatelessWidget {
                 Container(
                   padding: EdgeInsets.all(12),
                   width: 90,
-                  child: CardTags(
+                /*  child: CardTags(
                     title: company.isOpen ? 'open'.tr() : 'closed'.tr(),
                     color: company.isOpen ? Colors.green : Colors.red,
-                  ),
-                ),
+               ),
+               */    ),
                 company.ratting == null
                     ? Container()
                     : Padding(
@@ -185,7 +185,7 @@ class InfoCard extends StatelessWidget {
                               Row(
                                 children: [
                                   Text(
-                                    '${(company.openMins / 60).toString().characters.take(5)} AM || ${(company.closeMinute / 60).toString().characters.take(5)} PM',
+                                    '${(company.openMins).toString().characters.take(5)} M',
                                     overflow: TextOverflow.ellipsis,
                                     textAlign: TextAlign.left,
                                     style: TextStyle(
@@ -219,19 +219,20 @@ class InfoCard extends StatelessWidget {
           flex: 4,
           child: Stack(
             children: [
-              Container(height: 130, child: renderImage()),
+              Container(height: getHeight(context), child: renderImage()),
               if (company.category != null && company.category.isNotEmpty)
                 CardTags(title: company.category, color: Colors.orange),
+    /*
               SizedBox(width: 5.0),
               Container(
                 padding: EdgeInsets.all(12),
                 width: 90,
                 height: 50,
-                child: CardTags(
+           child: CardTags(
                   title: company.isOpen ? 'open'.tr() : 'closed'.tr(),
                   color: company.isOpen ? Colors.green : Colors.red,
                 ),
-              ),
+              ),*/
               company.ratting == null
                   ? Container(child: Text(""),)
                   : Padding(
@@ -272,11 +273,12 @@ class InfoCard extends StatelessWidget {
           ),
         ),
 
-
+/*
         Flexible(
           flex: 3,
           child: renderText(context),
         ),
+    */
       ],
     );
   }
@@ -289,6 +291,7 @@ class InfoCard extends StatelessWidget {
       margin: EdgeInsets.symmetric(vertical: 4, horizontal: 10),
       child: Row(
         children: <Widget>[
+
           SizedBox(
             height: 10,
           ),
@@ -321,7 +324,7 @@ class InfoCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                Text(
+               /* Text(
                   company.desc,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
@@ -330,11 +333,11 @@ class InfoCard extends StatelessWidget {
                     color: Colors.grey.shade400,
                     fontSize: 14,
                   ),
-                ),
+               ), */
                 Row(
                   children: [
                     Text(
-                      '${(company.openMins / 60).toString().characters.take(5)} AM',
+                      '${(company.openMins).toString()} M',
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.left,
                       style: TextStyle(
@@ -342,7 +345,7 @@ class InfoCard extends StatelessWidget {
                         fontSize: 16,
                       ),
                     ),
-                    Container(
+                  /*  Container(
                         padding: EdgeInsets.only(left: 5, right: 5),
                         child: Text(
                           "||",
@@ -350,8 +353,9 @@ class InfoCard extends StatelessWidget {
                             color: Colors.grey.shade500,
                             fontSize: 16,
                           ),
-                        )),
-                    Text(
+                        )
+                ),*/
+                 /*   Text(
                       '${(company.closeMinute / 60).toString().characters.take(5)} PM',
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.left,
@@ -359,7 +363,7 @@ class InfoCard extends StatelessWidget {
                         color: Colors.grey.shade500,
                         fontSize: 16,
                       ),
-                    ),
+                    ),*/
                   ],
                 ),
               ],

@@ -59,21 +59,21 @@ dependencies:
   map_launcher: ^2.0.0
   flutter_phoenix: ^1.0.0
   google_maps_flutter: ^2.0.3
-  flutter_native_splash: ^1.1.8+4
   shimmer: ^2.0.0
   awesome_dialog: ^2.1.0
 #  flutter_cache_manager: ^3.1.2
   path_provider: ^2.0.2
-
-
-
+  flutter_launcher_name: "^0.0.1"
 
 
 
 
 dev_dependencies:
+  change_app_package_name: ^1.0.0
   flutter_test:
     sdk: flutter
+flutter_launcher_name:
+  name: "barber"
 
 flutter:
   uses-material-design: true

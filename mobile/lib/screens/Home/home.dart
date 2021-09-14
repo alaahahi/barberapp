@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             children: [
               SizedBox(height: 20),
 
-              ProfileRow(),
+              //ProfileRow(),
 
 
 
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
 
               RandomCategoryList(),
 
-              freeGifts(),
+              //freeGifts(),
 
               SizedBox(height: 10),
 
@@ -60,9 +60,9 @@ class HomePage extends StatelessWidget {
                         //OfferList(list: snapshot.data.products),
                         // RowTitle(title: 'Trending Restaurants'),
                         // CompanyList(),
-                        weeklyWithdrawals(),
+                        //weeklyWithdrawals(),
 
-                        RowTitle(title: 'Featured Companies'.tr()),
+                        //RowTitle(title: 'Featured Companies'.tr()),
 
                         Column(
                           children: snapshot.data.companies

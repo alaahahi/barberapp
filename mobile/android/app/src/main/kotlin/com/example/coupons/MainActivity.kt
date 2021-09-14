@@ -1,4 +1,4 @@
-package com.savingapp.co
+package com.intellijapp.barber
 
 import io.flutter.embedding.android.FlutterActivity
 

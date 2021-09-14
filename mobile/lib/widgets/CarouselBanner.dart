@@ -18,24 +18,24 @@ class CarouselBanner extends StatelessWidget {
     return  CarouselSlider(
               items: imageUrls
                   .map((url) => Container(
-                        clipBehavior: Clip.antiAlias,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
                         child: CachedNetworkImage(
                           fit: BoxFit.fill,
+                          width:MediaQuery.of(context).size.width,
                           imageUrl: url,
                         ),
                       ))
                   .toList(),
               options: CarouselOptions(
-                height: MediaQuery.of(context).size.height * 0.18,
+                height: MediaQuery.of(context).size.height * 0.25,
                 enableInfiniteScroll: true,
                 autoPlay: true,
+                aspectRatio: 16/9,
                 autoPlayInterval: Duration(seconds: 3),
                 autoPlayAnimationDuration: Duration(milliseconds: 600),
-                autoPlayCurve: Curves.easeOutSine,
-                enlargeCenterPage: true,
+                //autoPlayCurve: Curves.easeOutSine,
+                //enlargeCenterPage: true,
+               // disableCenter: true,
+                viewportFraction: 1,
                 scrollDirection: Axis.horizontal,
               ),
             );

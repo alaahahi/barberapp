@@ -58,7 +58,7 @@ class MainApp extends StatelessWidget {
         providers: [
           Provider<Api>(
             create: (_) => Api(
-              baseUrl: 'https://www.savingapp.co/AdminCp/public/api',
+              baseUrl: 'https://www.intellijapp.com/barber/public/api',
               langFunc: () => EasyLocalization.of(context).locale.languageCode,
             ),
           ),
@@ -82,7 +82,7 @@ class MainApp extends StatelessWidget {
               return Scaffold(body: Center(child:  Splash()));
            
             }
-            return snapshot.data == null ?  LoginScreen(): appContent;
+            return appContent;
           },
         ),
       ),
