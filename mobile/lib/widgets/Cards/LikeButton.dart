@@ -48,10 +48,12 @@ class LikeButton<T extends LikeService> extends StatelessWidget {
         ),
         elevation: 4,
         clipBehavior: Clip.hardEdge,
+        color:  Color.fromRGBO(17, 47, 0, 1),
         child: IconButton(
           icon: Icon(
             likeService.isLiked(id) ? Icons.favorite : Icons.favorite_border,
-            color: Colors.red,
+            color: Color.fromRGBO(236, 194, 0, 1),
+
             size: 30,
           ),
           onPressed: () => likeService.toggle(id),

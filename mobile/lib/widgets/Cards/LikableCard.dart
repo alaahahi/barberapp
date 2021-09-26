@@ -30,7 +30,7 @@ class LikableCard extends StatelessWidget {
         width: vertical
             ? MediaQuery.of(context).size.width * 0.5
             : double.infinity,
-        height: vertical ? 350 : 160,
+        height: vertical ? 350 :  MediaQuery.of(context).size.height * 0.5,
         child: InkWell(
           onTap: onTap,
           child: Card(
@@ -43,6 +43,7 @@ class LikableCard extends StatelessWidget {
                   cartService.getQunatity(product.id),
                   cartService.change,
                 ),
+                /*
                 Positioned(
                   bottom: vertical ? null : 0,
                   top: vertical ? 0 : null,
@@ -55,6 +56,8 @@ class LikableCard extends StatelessWidget {
                           : 0,
                   child: LikeButton<ProductLikeService>(id: product.id),
                 ),
+
+                 */
                 if (!cartService.isCarted(product.id))
                   Positioned(
                     bottom: 0,
@@ -100,18 +103,15 @@ class LikableCard extends StatelessWidget {
       return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Flexible(flex: 3, child: renderImage(context)),
-          Flexible(
-              flex: 2,
-              fit: FlexFit.loose,
-              child: renderTexts(quantity, changeQuantity)),
+          Flexible(flex: 6, child: renderImage(context)),
+         // Flexible(flex: 2, fit: FlexFit.loose, child: renderTexts(quantity, changeQuantity)),
         ],
       );
 
     return Row(
       children: <Widget>[
-        Flexible(flex: 2, child: renderImage(context)),
-        Flexible(flex: 3, child: renderTexts(quantity, changeQuantity)),
+        Flexible(flex: 6, child: renderImage(context)),
+       // Flexible(flex: 3, child: renderTexts(quantity, changeQuantity)),
       ],
     );
   }

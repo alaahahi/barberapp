@@ -29,8 +29,8 @@ class productCart extends StatelessWidget {
                 child: CachedNetworkImage(
                   imageUrl: product.photo,
                   fit: BoxFit.cover,
-                  width: 150,
-                  height: 150,
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height * 0.6,
                 ),
               ),
               Column(
@@ -42,23 +42,6 @@ class productCart extends StatelessWidget {
                           FontWeight.w500),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      textbuld(' price :', Colors.grey, 16, FontWeight.w500),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      textbuld(product.pivot.quantity.toString()+" X", Colors.black, 16, FontWeight.w500),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Center(
-                        child: textbuld(product.discountPrice.toString(), Colors.black, 16,
-                            FontWeight.w500),
-                      ),
-                    ],
-                  )
                 ],
               )
             ],

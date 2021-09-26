@@ -10,6 +10,7 @@ import 'package:coupons/models/OrderModel.dart';
 import 'package:coupons/models/SearchResult.dart';
 import 'package:coupons/models/GiftModel.dart';
 import 'package:coupons/models/AdminCompany.dart';
+import 'package:coupons/models/SliderModel.dart';
 import 'package:coupons/services/CartItem.dart';
 import 'package:coupons/models/ActivationResult.dart';
 import 'package:coupons/models/WeeklyAndMonthlyPullModel.dart';
@@ -126,7 +127,7 @@ class Api extends Fetcher {
       return users;
     } else {
       final response = await http
-          .get(Uri.parse('$baseUrl/companies/$comapnyId/products/$lang'));
+          .get(Uri.parse('$baseUrl/details/$comapnyId'));
       var tempDir = await getTemporaryDirectory();
       File file = new File(tempDir.path + "/" + fileName + '$comapnyId');
       file.writeAsStringSync(response.body, flush: true, mode: FileMode.write);
@@ -141,8 +142,7 @@ class Api extends Fetcher {
       } else {
         throw Exception('Failed to load Users from API');
       }
-    }
-  }
+  }}
 
   Future<List<WeeklyAndMonthlyPullModel>> getWeeklyAndMonthlyPull() async {
     print('getWeeklyAndMonthlyPull');
@@ -318,6 +318,39 @@ class Api extends Fetcher {
               (dynamic item) => GiftModel.fromJson(item),
             )
             .toList();
+        return users;
+      } else {
+        throw Exception('Failed to load Users from API');
+      }
+    }
+  }
+  Future<List<SliderModel>> getSlider() async {
+    String fileName = "SlideCacheData.json";
+    var cacheDir = await getTemporaryDirectory();
+    File file = new File(cacheDir.path + "/" + fileName);
+    if (await file.exists()) {
+      var jsonData = file.readAsStringSync();
+      List<dynamic> body = jsonDecode(jsonData);
+      List<SliderModel> users = body
+          .map(
+            (dynamic item) => SliderModel.fromJson(item),
+      )
+          .toList();
+      return users;
+    } else {
+      final response = await http.get(Uri.parse('$baseUrl/slider'));
+      var tempDir = await getTemporaryDirectory();
+      File file = new File(tempDir.path + "/" + fileName);
+      file.writeAsStringSync(response.body, flush: true, mode: FileMode.write);
+      if (response.statusCode == 200) {
+        List<dynamic> body = jsonDecode(response.body);
+        List<SliderModel> users = body
+            .map(
+              (dynamic data) => SliderModel.fromJson(data),
+        )
+            .toList();
+        print("---------------------------------------------------");
+        print(body.toString());
         return users;
       } else {
         throw Exception('Failed to load Users from API');

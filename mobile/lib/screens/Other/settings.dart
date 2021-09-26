@@ -99,6 +99,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     return ListView(
       children: [
+        /*
         Section(
           title: 'Account'.tr(),
           tiles: [
@@ -234,6 +235,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             //  ),
           ],
         ),
+         */
         Section(
           title: 'Application Language'.tr(),
           tiles: [
@@ -282,7 +284,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ],
         ),
-        /*
+
         Section(
           title: 'Power By'.tr(),
           tiles: [
@@ -306,7 +308,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ],
         ),
-        */
+
       ],
     );
   }

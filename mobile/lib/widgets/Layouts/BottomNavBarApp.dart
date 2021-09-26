@@ -17,9 +17,9 @@ class BottomedNavBarApp extends StatelessWidget {
       screens: [
         HomePage(),
         Wishlist(),
-        SearchPage(),
-        CartPage(),
-        OrdersPage(), //ShowProduct(),
+        //SearchPage(),
+        //CartPage(),
+       // OrdersPage(), //ShowProduct(),
         SettingsPage(),
 //        giftPage(),
       ],
@@ -37,6 +37,7 @@ class BottomedNavBarApp extends StatelessWidget {
           activeColorPrimary: Colors.red,
           inactiveColorPrimary: Colors.grey.shade300,
         ),
+        /*
         PersistentBottomNavBarItem(
           icon: Icon(Icons.search),
           title: 'Search'.tr(),
@@ -55,6 +56,8 @@ class BottomedNavBarApp extends StatelessWidget {
           activeColorPrimary: Colors.indigo,
           inactiveColorPrimary: Colors.grey.shade300,
         ),
+
+         */
         PersistentBottomNavBarItem(
           icon: Icon(
             Icons.person,

@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:shimmer/shimmer.dart';
+
 
 class freeGifts extends StatelessWidget {
   static int showGifts = 1;

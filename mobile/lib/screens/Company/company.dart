@@ -34,6 +34,7 @@ class _CompanyPageState extends State<CompanyPage> {
       logo: widget.company.logo,
       info:widget.company.info,
       future: context.read<Api>().getProducts(comapnyId: widget.company.id),
+      /*
       actions: widget.showEdit
           ? [
               CircleIconButton(
@@ -51,8 +52,8 @@ class _CompanyPageState extends State<CompanyPage> {
               ),
             ]
           : [
-              LikeButton<CompanyLikeService>(id: widget.company.id),
-              CircleIconButton(
+              //LikeButton<CompanyLikeService>(id: widget.company.id),
+              /*CircleIconButton(
                 icon: Icons.pin_drop,
                 color: Colors.blue,
                 onPressed: () async {
@@ -69,7 +70,11 @@ class _CompanyPageState extends State<CompanyPage> {
                 color: Colors.green,
                 onPressed: () => launch('tel:${widget.company.phone}'),
               ),
+
+               */
             ],
+
+       */
       filler: (ProductModel item, bool shrink) => LikableCard(
         product: item,
         vertical: shrink,

@@ -44,7 +44,7 @@ class _RemoteListNGridScaffoldState<T>
                 fit: BoxFit.cover,
                 width: double.infinity,
                 imageUrl: widget.photo ?? widget.logo,
-                height: MediaQuery.of(context).size.height * 0.3,
+                height: MediaQuery.of(context).size.height * 0.6,
               ),
               if (widget.logo != null && widget.logo.isNotEmpty)
                 Card(
@@ -82,7 +82,7 @@ class _RemoteListNGridScaffoldState<T>
                   widget.info,
                 ),
                 leading: Icon(Icons.info),
-                onTap: () {     
+                onTap: () {
                 },
               ),
             ),]),

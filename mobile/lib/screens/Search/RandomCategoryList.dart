@@ -32,19 +32,20 @@ class RandomCategoryList extends StatelessWidget {
           );
         }
         if (snapshot.hasData) {
+
           return isGrid
               ? GridView.count(
                   childAspectRatio:  500 / 500,
-                  crossAxisCount: 3,
-                  padding: EdgeInsets.all(25),
+                  crossAxisCount: 1,
+
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
                   children: renderChildren(context, snapshot.data),
                 )
               : GridView.count(
-            childAspectRatio: 500 / 500,
-            crossAxisCount: 3,
-            padding: EdgeInsets.all(25),
+            childAspectRatio: 8 / 5,
+            crossAxisCount: 1,
+
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
             children: renderChildren(context, snapshot.data),
@@ -57,12 +58,8 @@ class RandomCategoryList extends StatelessWidget {
           Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height * 0.10,
+                height: MediaQuery.of(context).size.height * 0.05,
                 margin: EdgeInsets.all( MediaQuery.of(context).size.width*0.05),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(4),
-                  color: Colors.white,
-                ),
               ),
             ],
           )
@@ -103,22 +100,33 @@ class CategoryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onClick,
-      child: Column(
-        children: [
-          Container(
-            height: MediaQuery.of(context).size.height * 0.07,
-            margin: EdgeInsets.all(10),
-            child: CachedNetworkImage(
-              imageUrl: imgItem,
-              fit: BoxFit.cover,
+      child: Container(
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(50)),
+            color:Color.fromRGBO(0, 0, 0, 0.9),
+
+      ),
+        margin:EdgeInsets.only(bottom: 10),
+        child: Column(
+
+          children: [
+            Container(
+
+              height: MediaQuery.of(context).size.height * 0.2,
+              margin: EdgeInsets.all(5),
+              child: CachedNetworkImage(
+                imageUrl: imgItem,
+                fit: BoxFit.cover,
+              ),
             ),
-          ),
-          Container(
-              height: MediaQuery.of(context).size.height * 0.03,
-              child:
-          Text(textName)
-          ),
-        ],
+            Container(
+
+                height: MediaQuery.of(context).size.height * 0.03,
+                child:
+            Text(textName,style: TextStyle(color: Color.fromRGBO(236, 194, 0, 1)),)
+            ),
+          ],
+        ),
       ),
     );
   }

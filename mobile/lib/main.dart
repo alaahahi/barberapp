@@ -50,6 +50,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final appContent = BottomedNavBarApp();
     return MaterialApp(
+      theme: new ThemeData(scaffoldBackgroundColor:  Color.fromRGBO(0, 0, 0, 1)),
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
