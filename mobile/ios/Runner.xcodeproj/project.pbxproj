@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14543B2D270385B50070E37B /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F45A53C241CD24AAC1F3FF5 /* Pods_Runner.framework */; };
+		14543B2E270385B50070E37B /* Pods_Runner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F45A53C241CD24AAC1F3FF5 /* Pods_Runner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		14F67571264D47B7009ECD45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F67570264D47B7009ECD45 /* GoogleService-Info.plist */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		63EE57DA7D0D6B2A5C1F8AF3 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F45A53C241CD24AAC1F3FF5 /* Pods_Runner.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				14543B2E270385B50070E37B /* Pods_Runner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EE57DA7D0D6B2A5C1F8AF3 /* Pods_Runner.framework in Frameworks */,
+				14543B2D270385B50070E37B /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
