@@ -2,7 +2,6 @@ import 'package:coupons/data/api.dart';
 import 'package:coupons/models/ActivationResult.dart';
 import 'package:coupons/screens/Home/ActivationInput.dart';
 import 'package:coupons/services/activation.dart';
-import 'package:coupons/services/authService.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -19,16 +18,6 @@ class _ActivationBoxState extends State<ActivationBox> {
   @override
   void initState() {
     super.initState();
-
-    context
-        .read<AuthService>()
-        .user
-        .then((u) => u.phoneNumber)
-        .then((phone) async {
-      final ActivationResult res =
-          await context.read<Api>().checkActivation(phone: phone);
-      context.read<Activation>().setActivation(res);
-    });
   }
 
   @override

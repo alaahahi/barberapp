@@ -1,27 +1,18 @@
 import 'package:coupons/data/api.dart';
-import 'package:coupons/services/authService.dart';
 import 'package:coupons/services/activation.dart';
 import 'package:coupons/services/likes.dart';
 import 'package:coupons/services/cartService.dart';
-import 'package:coupons/screens/Auth/loginScreen.dart';
 import 'package:coupons/widgets/Layouts/BottomNavBarApp.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_statusbar_manager/flutter_statusbar_manager.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:firebase_core/firebase_core.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
   // setupLocater();
-  await FlutterStatusbarManager.setColor(Colors.transparent, animated: true);
-  await FlutterStatusbarManager.setNavigationBarColor(
-    Colors.white,
-    animated: true,
-  );
-  await Firebase.initializeApp();
+
   final prefs = await SharedPreferences.getInstance();
 
   runApp(
@@ -63,7 +54,7 @@ class MainApp extends StatelessWidget {
               langFunc: () => EasyLocalization.of(context).locale.languageCode,
             ),
           ),
-          Provider<AuthService>(create: (_) => AuthService()),
+          //Provider<AuthService>(create: (_) => AuthService()),
           Provider<SharedPreferences>(create: (_) => prefs),
           ListenableProvider<Activation>(create: (_) => Activation()),
           ListenableProvider<ProductLikeService>(
@@ -76,12 +67,12 @@ class MainApp extends StatelessWidget {
               create: (_) => CartService(prefs: prefs)),
         ],
         builder: (context, child) => StreamBuilder(
-          stream: context.read<AuthService>().onAuthStateChanged,
+          stream: null,
           builder: (context, snapshot) {
             //return appContent;
             if (snapshot.connectionState == ConnectionState.waiting) {
               return Scaffold(body: Center(child:  Splash()));
-           
+
             }
             return appContent;
           },

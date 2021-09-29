@@ -1,5 +1,4 @@
 import 'package:coupons/data/api.dart';
-import 'package:coupons/services/authService.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
@@ -74,7 +73,7 @@ class _ActivationInputState extends State<ActivationInput> {
                   activating = true;
                 });
                 try {
-                  final user = await context.read<AuthService>().user;
+                  final user = null;
                   final res = await context.read<Api>().activation(
                         card: tc.text,
                         phone: user.phoneNumber,

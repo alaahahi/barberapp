@@ -1,7 +1,6 @@
 import 'package:coupons/data/api.dart';
 import 'package:coupons/models/ProductModel.dart';
 import 'package:coupons/screens/Cart/CartSummary.dart';
-import 'package:coupons/services/authService.dart';
 import 'package:coupons/services/cartService.dart';
 import 'package:coupons/widgets/Cards/LikableCard.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -40,7 +39,7 @@ class CartProductsAndSummary extends StatelessWidget {
             try {
               setLoader(true);
               final ids = products.map((e) => e.id).toList();
-              final user = await context.read<AuthService>().user;
+              final user = null;
               final msg = await context.read<Api>().submitOrder(
                     items: cart.getByIds(ids),
                     phone: user.phoneNumber,

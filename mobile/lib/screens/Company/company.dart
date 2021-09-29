@@ -1,7 +1,6 @@
 import 'package:coupons/data/api.dart';
 import 'package:coupons/models/CompanyModel.dart';
 import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/services/authService.dart';
 import 'package:coupons/services/likes.dart';
 import 'package:coupons/widgets/Cards/LikableCard.dart';
 import 'package:coupons/widgets/Cards/LikeButton.dart';
@@ -156,7 +155,7 @@ class _AddProductModalState extends State<AddProductModal> {
             child: Text('Save'),
             onPressed: () async {
               try {
-                final user = await context.read<AuthService>().user;
+                final user =null;
                 await context
                     .read<Api>()
                     .submitProduct(phone: user.phoneNumber, json: {

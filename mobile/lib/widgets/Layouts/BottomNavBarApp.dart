@@ -1,7 +1,6 @@
 import 'package:coupons/screens/Home/home.dart';
 import 'package:coupons/screens/Search/search.dart';
 import 'package:coupons/screens/Cart/Cart.dart';
-import 'package:coupons/screens/Orders/Orders.dart';
 import 'package:coupons/screens/Other/settings.dart';
 import 'package:coupons/screens/Wishlist/wishlist.dart';
 import 'package:easy_localization/easy_localization.dart';

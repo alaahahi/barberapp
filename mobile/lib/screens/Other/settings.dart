@@ -4,8 +4,6 @@ import 'package:coupons/screens/Home/ActivationBox.dart';
 import 'package:coupons/screens/Home/ActivationInput.dart';
 import 'package:coupons/services/activation.dart';
 import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
-import 'package:coupons/services/authService.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

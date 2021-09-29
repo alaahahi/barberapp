@@ -13,7 +13,6 @@ import 'package:flutter/widgets.dart';
 import 'package:coupons/widgets/CarouselBanner.dart';
 import 'package:coupons/widgets/common/RowTitle.dart';
 import 'package:coupons/widgets/common/OfferList.dart';
-import 'package:coupons/screens/Home/profileRow.dart';
 import 'package:coupons/screens/Home/ActivationBox.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
