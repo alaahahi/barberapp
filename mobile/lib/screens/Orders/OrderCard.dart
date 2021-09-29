@@ -7,7 +7,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:coupons/data/api.dart';
 import 'package:provider/provider.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:coupons/screens/Orders/feedback.dart';
 
@@ -381,7 +380,6 @@ class _OrderCardState extends State<OrderCard> {
         Navigator.of(context, rootNavigator: true).pop();
         context.read<Api>()
             .deletedCompany(widget.order.id.toString());
-        Fluttertoast.showToast(msg: "Deleted. Recheck the page");
     }
   }
 

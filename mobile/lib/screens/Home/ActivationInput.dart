@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+
 import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 class ActivationInput extends StatefulWidget {
@@ -81,13 +81,11 @@ class _ActivationInputState extends State<ActivationInput> {
 
                   if (widget.onActivate != null) widget.onActivate();
 
-                  Fluttertoast.showToast(
-                    msg: 'Activated successfuly, until: '.tr() + res.toString(),
-                  );
+
 
                   Phoenix.rebirth(context);
                 } catch (ex) {
-                  Fluttertoast.showToast(msg: ex.toString());
+
                 }
                 setState(() {
                   activating = false;

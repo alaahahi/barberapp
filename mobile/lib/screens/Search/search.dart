@@ -8,7 +8,6 @@ import 'package:coupons/services/searchHistoryService.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -169,7 +168,6 @@ class _SearchPageState extends State<SearchPage> {
         searchStatue = SearchStatue.result;
       });
     } catch (ex) {
-      Fluttertoast.showToast(msg: ex.message);
       setState(() {
         searchStatue = SearchStatue.error;
       });

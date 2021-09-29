@@ -5,7 +5,6 @@ import 'package:coupons/services/cartService.dart';
 import 'package:coupons/widgets/Cards/LikableCard.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 
 class CartProductsAndSummary extends StatelessWidget {
@@ -45,12 +44,9 @@ class CartProductsAndSummary extends StatelessWidget {
                     phone: user.phoneNumber,
                   );
               await cart.removeItems(ids);
-              Fluttertoast.showToast(msg: msg);
+
             } catch (e) {
-              Fluttertoast.showToast(
-                msg:
-                      'Some error happened, Try again'.tr() + '\n' + e.toString(),
-              );
+
             }
             setLoader(false);
           },

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -69,7 +68,6 @@ class _WeatherIconState extends State<WeatherIcon> {
                   icon: Icon(Icons.replay_outlined),
                   onPressed: () {
                     fetchData();
-                    Fluttertoast.showToast(msg: '$temp ');
                   })
               : InkWell(
                   onTap: () => fetchData(),

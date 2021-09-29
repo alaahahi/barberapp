@@ -7,7 +7,7 @@ import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+
 import 'package:provider/provider.dart';
 
 class feedback extends StatefulWidget {
@@ -147,14 +147,14 @@ class _feedbackState extends State<feedback> {
                           id: widget.order.id.toString(),
                           evaluation: rang,
                           messag: "nullText");
-                      Fluttertoast.showToast(msg: res.toString());
+                     // Fluttertoast.showToast(msg: res.toString());
                     }
                     Navigator.of(context).pop();
                     final res = await context.read<Api>().sendUser(
                         id: widget.order.id.toString(),
                         evaluation: rang,
                         messag: textController.text);
-                    Fluttertoast.showToast(msg: res.toString());
+                   // Fluttertoast.showToast(msg: res.toString());
                   },
                   child: Container(
                     margin: EdgeInsets.all(5),

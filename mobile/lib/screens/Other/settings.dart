@@ -11,7 +11,6 @@ import 'package:flutter/widgets.dart';
 import 'dart:ui' as ui;
 import 'package:easy_localization/easy_localization.dart';
 import 'package:coupons/widgets/common/LangaugeDropdown.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 
 import 'package:url_launcher/url_launcher.dart';
@@ -387,7 +386,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     setState(() async {
       final res =
           await context.read<Api>().editUserInfo(name: inputText, phone: phone);
-      Fluttertoast.showToast(msg: res);
+      //Fluttertoast.showToast(msg: res);
       _isEditingText = false;
       _isEnableText = false;
 
