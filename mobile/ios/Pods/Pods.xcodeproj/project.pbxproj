@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = Flutter;
+			productName = Flutter;
 		};
 /* End PBXAggregateTarget section */
 
@@ -207,7 +208,7 @@
 		0436C214D55377923E10E3170CDF33F1 /* FLTSharedPreferencesPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTSharedPreferencesPlugin.m; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/ios/Classes/FLTSharedPreferencesPlugin.m"; sourceTree = "<group>"; };
 		06B08B0033E26D44D685CD58619D4F4F /* SqflitePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqflitePlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/ios/Classes/SqflitePlugin.h"; sourceTree = "<group>"; };
 		080310AD88709774992D653FF257A15C /* PositionStreamHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PositionStreamHandler.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Handlers/PositionStreamHandler.m"; sourceTree = "<group>"; };
-		0837E92E7614B8E235C86609B644CD1E /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0837E92E7614B8E235C86609B644CD1E /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F974884404C9BF499B6E16F42CDD916 /* map_launcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "map_launcher-Info.plist"; sourceTree = "<group>"; };
 		105D49F20CF355B091719C2F8CE62BA9 /* ServiceStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceStatus.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/ServiceStatus.h"; sourceTree = "<group>"; };
 		1061391D4E0F2509E61CD955E3E639E5 /* PositionStreamHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PositionStreamHandler.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Handlers/PositionStreamHandler.h"; sourceTree = "<group>"; };
@@ -216,8 +217,8 @@
 		1624A2329DA3B81C85654CF04AFAE6DE /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		1819640B54A1E3B6AE2B5E7778ADB3BF /* AuthorizationStatusMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthorizationStatusMapper.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/AuthorizationStatusMapper.h"; sourceTree = "<group>"; };
 		1998FD4D6BDBDAB3C341DB44F31BAEAF /* PermissionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionUtils.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/PermissionUtils.m"; sourceTree = "<group>"; };
-		1A7893075679B929D1B8F7DBA7B5E60D /* sqflite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = sqflite.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/ios/sqflite.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1B632E4CB0C6A76270E7F027F8610836 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/LICENSE"; sourceTree = "<group>"; };
+		1A7893075679B929D1B8F7DBA7B5E60D /* sqflite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = sqflite.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/ios/sqflite.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B632E4CB0C6A76270E7F027F8610836 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/LICENSE"; sourceTree = "<group>"; };
 		1C2AB48B7877E0CF3CAA494D61A5D8DB /* FLTURLLauncherPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTURLLauncherPlugin.m; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/ios/Classes/FLTURLLauncherPlugin.m"; sourceTree = "<group>"; };
 		1E748B81BAC7CB7026AAC39CFF8246AA /* path_provider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider-prefix.pch"; sourceTree = "<group>"; };
 		1EB34233F98BC422304356411D233959 /* GeolocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeolocationHandler.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Handlers/GeolocationHandler.m"; sourceTree = "<group>"; };
@@ -227,12 +228,12 @@
 		2EEBD408EA8351F7AA70BEE9B276F73E /* path_provider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider.debug.xcconfig; sourceTree = "<group>"; };
 		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
 		33FC95412C996574DECF5C3260BC4F65 /* GeolocatorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeolocatorPlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/GeolocatorPlugin.h"; sourceTree = "<group>"; };
-		3852A240D9FC949E18BAA5EE2E1C39DF /* geolocator_apple.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = geolocator_apple.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/geolocator_apple.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3852A240D9FC949E18BAA5EE2E1C39DF /* geolocator_apple.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = geolocator_apple.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/geolocator_apple.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F33CE8E3FC9678158E831A21C6DD0FA /* MapLauncherPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapLauncherPlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/ios/Classes/MapLauncherPlugin.h"; sourceTree = "<group>"; };
 		407D742B9CFE1C36E7DB3C3C7919A0DF /* FLTSharedPreferencesPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTSharedPreferencesPlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/ios/Classes/FLTSharedPreferencesPlugin.h"; sourceTree = "<group>"; };
 		42586A86E8029522F398965193E095F6 /* FLTPathProviderPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTPathProviderPlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/ios/Classes/FLTPathProviderPlugin.h"; sourceTree = "<group>"; };
 		44D3863412C4AA864BCE94A3BDE70BF8 /* LocationMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocationMapper.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/LocationMapper.m"; sourceTree = "<group>"; };
-		46ADF3D6984C33072F92A0D2C8C50B86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/LICENSE"; sourceTree = "<group>"; };
+		46ADF3D6984C33072F92A0D2C8C50B86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/LICENSE"; sourceTree = "<group>"; };
 		47A9EB4178A8680CCFA7EE680211850A /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
 		4983DC1580F5854B6A051CA7793E6937 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		49C8DD3819AFFF1DAC68C5C94C784C35 /* map_launcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = map_launcher.release.xcconfig; sourceTree = "<group>"; };
@@ -244,7 +245,7 @@
 		54F5050F82A26CC1B35685AF74F29FC1 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		5578B1407CA30A1C962B5BF1C25D303B /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		55FDAE0BFA68C95AB8BB7712D2F5B97F /* path_provider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider-umbrella.h"; sourceTree = "<group>"; };
-		57C51BD9630667F1253D04DDBB3832E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/LICENSE"; sourceTree = "<group>"; };
+		57C51BD9630667F1253D04DDBB3832E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/LICENSE"; sourceTree = "<group>"; };
 		59690D7E6C7DF7237A125AB2810A364F /* LocationAccuracyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocationAccuracyHandler.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Handlers/LocationAccuracyHandler.m"; sourceTree = "<group>"; };
 		5D5D5606E49D47CD71491375DDFD9CA9 /* map_launcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "map_launcher-prefix.pch"; sourceTree = "<group>"; };
 		634F7DC3D0517366CB4D84EC88BD1FA6 /* geolocator_apple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "geolocator_apple-Info.plist"; sourceTree = "<group>"; };
@@ -253,13 +254,13 @@
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E78AF2E44560D47B5085FE0278060B /* map_launcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = map_launcher.modulemap; sourceTree = "<group>"; };
 		70F87CCCFCD0EF37D01D9077CB71EF47 /* SqfliteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqfliteOperation.m; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/ios/Classes/SqfliteOperation.m"; sourceTree = "<group>"; };
-		72C68ED323B97B5358C562025C1112B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/LICENSE"; sourceTree = "<group>"; };
+		72C68ED323B97B5358C562025C1112B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/LICENSE"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		747D5656BFC563177C3D8C502155420A /* url_launcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = url_launcher.release.xcconfig; sourceTree = "<group>"; };
 		7852DDFF098996A7C6641EBFD7A6C971 /* path_provider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "path_provider-dummy.m"; sourceTree = "<group>"; };
 		795980C616A602E628782855D3E8D326 /* shared_preferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences-prefix.pch"; sourceTree = "<group>"; };
 		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
-		7DAB3BF86FE9786B881D8BBA760CE798 /* url_launcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = url_launcher.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/ios/url_launcher.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DAB3BF86FE9786B881D8BBA760CE798 /* url_launcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = url_launcher.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/ios/url_launcher.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E0EE6B4B6B4E3E49A777169231768C3 /* map_launcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = map_launcher.debug.xcconfig; sourceTree = "<group>"; };
 		7E5A5FC31DCFC534A73504E2635C97AC /* geolocator_apple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = geolocator_apple.release.xcconfig; sourceTree = "<group>"; };
 		80F7F9223E287672F73B2030BFCA7958 /* LocationMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationMapper.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/LocationMapper.h"; sourceTree = "<group>"; };
@@ -277,11 +278,11 @@
 		9AA9B668D0C6E8CE34E9F02BED4421F6 /* geolocator_apple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = geolocator_apple.modulemap; sourceTree = "<group>"; };
 		9C6D8E477FA0273889E5228CE673D73D /* url_launcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "url_launcher-Info.plist"; sourceTree = "<group>"; };
 		9CDE0832B06ABAFBFE4C6E9E2D32FBDE /* geolocator_apple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "geolocator_apple-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		A0083C3D623504A930CA33FDD3F88B9E /* SwiftMapLauncherPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMapLauncherPlugin.swift; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/ios/Classes/SwiftMapLauncherPlugin.swift"; sourceTree = "<group>"; };
 		A2B6CB5C6A5727DD9006026D014F60D8 /* LocationAccuracyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationAccuracyHandler.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Handlers/LocationAccuracyHandler.h"; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B93797EDC24D93AAD1EC2B4869A220 /* sqflite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sqflite.modulemap; sourceTree = "<group>"; };
 		A7DFF09570A3D9FE53C424AF95417829 /* url_launcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "url_launcher-umbrella.h"; sourceTree = "<group>"; };
 		A81086233B9B77E145DE8FC5365806EB /* LocationDistanceMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationDistanceMapper.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/LocationDistanceMapper.h"; sourceTree = "<group>"; };
@@ -299,13 +300,13 @@
 		C7387F5C2B4819DDB4773035A3EDD373 /* SqfliteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqfliteOperation.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/ios/Classes/SqfliteOperation.h"; sourceTree = "<group>"; };
 		CA171736219B27A91963BA83D113D127 /* geolocator_apple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = geolocator_apple.debug.xcconfig; sourceTree = "<group>"; };
 		CAFFF7129F717E4933A25952DED9C938 /* geolocator_apple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "geolocator_apple-umbrella.h"; sourceTree = "<group>"; };
-		CB07D2636AC79A375B223826DE8DB87C /* shared_preferences.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/ios/shared_preferences.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB07D2636AC79A375B223826DE8DB87C /* shared_preferences.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = shared_preferences.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.8/ios/shared_preferences.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB64793F62DC8657063D4064D70DCE4F /* map_launcher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = map_launcher; path = map_launcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC69340D25A756F9833F86249AC52CE /* shared_preferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shared_preferences-dummy.m"; sourceTree = "<group>"; };
 		CD4D247B56F3C354FB04D528D1587258 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		CE3D3FE52A71A54F4F1E6B284328FF44 /* FLTPathProviderPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTPathProviderPlugin.m; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/ios/Classes/FLTPathProviderPlugin.m"; sourceTree = "<group>"; };
-		CF641E3759A591DC89DB375E1D248954 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/LICENSE"; sourceTree = "<group>"; };
+		CF641E3759A591DC89DB375E1D248954 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/LICENSE"; sourceTree = "<group>"; };
 		D1998C648F4E44F5A70AA8227C2D8C13 /* LocationAccuracyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationAccuracyMapper.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/LocationAccuracyMapper.h"; sourceTree = "<group>"; };
 		D2E9151FF178A177C7E4A82248E431AB /* shared_preferences */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shared_preferences; path = shared_preferences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
@@ -317,20 +318,20 @@
 		D8F518F5CE26E4D5B0AF64A54ADA4187 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		D904840CF0917C2AEABD0AC88E29B2BF /* url_launcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "url_launcher-prefix.pch"; sourceTree = "<group>"; };
 		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = path_provider; path = path_provider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = path_provider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF25813056B8553F14C289B541EFC7B /* LocationAccuracyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocationAccuracyMapper.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/LocationAccuracyMapper.m"; sourceTree = "<group>"; };
-		DBF37AA8C64DE9B046386B8DBB8987F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/LICENSE"; sourceTree = "<group>"; };
+		DBF37AA8C64DE9B046386B8DBB8987F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/LICENSE"; sourceTree = "<group>"; };
 		DDB84D9A0F15E735FC534A12711BC72D /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		DFC7FCB163982668F35644CC9927F08C /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		E80FFDE45A88912B6743E38D8920CF8F /* shared_preferences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences.debug.xcconfig; sourceTree = "<group>"; };
 		E9F5D48FBD4146CE12ADAC08B7581B55 /* url_launcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = url_launcher.debug.xcconfig; sourceTree = "<group>"; };
-		ECAF16E1D9EDC249CADA13D6DF74017A /* path_provider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = path_provider.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/ios/path_provider.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECAF16E1D9EDC249CADA13D6DF74017A /* path_provider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = path_provider.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/ios/path_provider.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECD4775EA53FAE520C542530A747F7CD /* MapLauncherPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MapLauncherPlugin.m; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/ios/Classes/MapLauncherPlugin.m"; sourceTree = "<group>"; };
 		F0AA901987A2477885CA0C31AF10C482 /* FLTURLLauncherPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTURLLauncherPlugin.h; path = "../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.12/ios/Classes/FLTURLLauncherPlugin.h"; sourceTree = "<group>"; };
 		F1C8D2E436E16E2B1C1FFCF104FEE0D8 /* shared_preferences-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shared_preferences-Info.plist"; sourceTree = "<group>"; };
 		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
 		F5CFBD5D75D63A96DF1EF9B9C025BC03 /* AuthorizationStatusMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthorizationStatusMapper.m; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Utils/AuthorizationStatusMapper.m"; sourceTree = "<group>"; };
-		F61F066C8750C2BE6668A079D584C927 /* map_launcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = map_launcher.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/ios/map_launcher.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F61F066C8750C2BE6668A079D584C927 /* map_launcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = map_launcher.podspec; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/map_launcher-2.1.1/ios/map_launcher.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F85917DD9D15594EA0EBA9CA48DF0492 /* sqflite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqflite.debug.xcconfig; sourceTree = "<group>"; };
 		FBC402BB36EE4F20057BF1839B443B31 /* ErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ErrorCodes.h; path = "../../../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_apple-1.2.1/ios/Classes/Constants/ErrorCodes.h"; sourceTree = "<group>"; };
 		FC61B9D64EB918BF07B22972A918E87B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
@@ -411,7 +412,6 @@
 			children = (
 				4E19F170618AED6C5A21183995A5ABD2 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -420,7 +420,6 @@
 			children = (
 				648C89EE59868F9FC8E4CAFCF36534D9 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -429,7 +428,6 @@
 			children = (
 				9446E01E62C824B8BD842C03485E308D /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -479,7 +477,6 @@
 			children = (
 				3FFF28F52F55F43E3A77FEE8AC48200F /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -502,7 +499,6 @@
 			children = (
 				63626E480FEB1C2DA474F5C71ABE85CA /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -520,7 +516,6 @@
 			children = (
 				6C9D9FD495FBDB5ABF07BDF78C12D43A /* ios */,
 			);
-			name = shared_preferences;
 			path = shared_preferences;
 			sourceTree = "<group>";
 		};
@@ -529,7 +524,6 @@
 			children = (
 				05E5426BD520776F1A807131FBA330B4 /* ios */,
 			);
-			name = path_provider;
 			path = path_provider;
 			sourceTree = "<group>";
 		};
@@ -541,7 +535,6 @@
 				06B08B0033E26D44D685CD58619D4F4F /* SqflitePlugin.h */,
 				8AF5A110408D4645C4F01529E0C34903 /* SqflitePlugin.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -550,7 +543,6 @@
 			children = (
 				64D64D1698952AF0D433E7FA415867BD /* ios */,
 			);
-			name = map_launcher;
 			path = map_launcher;
 			sourceTree = "<group>";
 		};
@@ -559,7 +551,6 @@
 			children = (
 				FFA5AA8D5D7409EFDD1BDFF504B68448 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -568,7 +559,6 @@
 			children = (
 				3C4D1DF10EADB95B0B43B22529960B98 /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -587,17 +577,16 @@
 			children = (
 				ECF9ACF82C3B5323C455D92EF13D4850 /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
 		2FB8F5E49B38A1394CACE86C078D064E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
 				502E20F09A7CAFBD1DE1AA882DCC550C /* geolocator_apple */,
 				CB64793F62DC8657063D4064D70DCE4F /* map_launcher */,
-				DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider */,
+				DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider.framework */,
 				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
 				D2E9151FF178A177C7E4A82248E431AB /* shared_preferences */,
 				B799BFFEC5B11F90F501202080A57F37 /* sqflite */,
@@ -611,7 +600,6 @@
 			children = (
 				E8A51C1B5CBE6120635A9F3197C0839B /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -620,7 +608,6 @@
 			children = (
 				4623194D2F23B4A38E8FFFCBFF0C9A68 /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -630,7 +617,6 @@
 				407D742B9CFE1C36E7DB3C3C7919A0DF /* FLTSharedPreferencesPlugin.h */,
 				0436C214D55377923E10E3170CDF33F1 /* FLTSharedPreferencesPlugin.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -659,7 +645,6 @@
 			children = (
 				AA8567D736C8DBD28EDD196A10BAB0B2 /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -668,7 +653,6 @@
 			children = (
 				47CCDFC911F8346073971B2B91947922 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -677,7 +661,6 @@
 			children = (
 				6710B54A14B6860FD693CCC1C0396F96 /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -695,7 +678,6 @@
 			children = (
 				948D0425BE9EF57B5B810D6143D0C647 /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -704,7 +686,6 @@
 			children = (
 				77200B4BBA89D4D4782AC412D38E944F /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -713,7 +694,6 @@
 			children = (
 				4DCCD3AF9C7C9C393FA6206C4EFDC7EA /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -726,7 +706,6 @@
 				693A599529CD1D42612B1BC9A627B0A7 /* Handlers */,
 				CA9DB3502CF2AE4C4EA8AF30EF9FB749 /* Utils */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -735,7 +714,6 @@
 			children = (
 				CDE750981AE4FB6C79F3BE86444E06E9 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -744,7 +722,6 @@
 			children = (
 				4CBBB81E4A5D8201B2ECCED493DA0906 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -753,7 +730,6 @@
 			children = (
 				70DD950323C9052F5708137FE55722C4 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -771,7 +747,6 @@
 			children = (
 				F2CAB30B4D597AE9BBCC9E2A5A22948E /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -780,7 +755,6 @@
 			children = (
 				8E3E6052395F51E2289058323EFB34D5 /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -799,7 +773,6 @@
 			children = (
 				EE367E96676E9EFD327DF94FA8681B33 /* ios */,
 			);
-			name = sqflite;
 			path = sqflite;
 			sourceTree = "<group>";
 		};
@@ -808,7 +781,6 @@
 			children = (
 				A2CE2E0622792158A99B22600176309F /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -825,7 +797,6 @@
 			children = (
 				F9D69C3F171170D02C59A8A35BA4771D /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -834,7 +805,6 @@
 			children = (
 				753094E30B3C9F3522B2505FA4B53182 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -843,7 +813,6 @@
 			children = (
 				67B99A476297520A2B59A57A5F456836 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -861,7 +830,6 @@
 			children = (
 				73747ECA34F3500480A7DE27934C6226 /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -870,7 +838,6 @@
 			children = (
 				36CD6514F0ED50DFAEE230E3F26D7539 /* ios */,
 			);
-			name = geolocator_apple;
 			path = geolocator_apple;
 			sourceTree = "<group>";
 		};
@@ -879,7 +846,6 @@
 			children = (
 				FAE42EB5C1ABE957B897DD9474B2024C /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -888,7 +854,6 @@
 			children = (
 				266E1B64873F413B8FC41790D9314F12 /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -897,7 +862,6 @@
 			children = (
 				163F434CFF432FFA8B488DB3DD8D7AC5 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -906,7 +870,6 @@
 			children = (
 				E8B9EBF7A8FADC48938AF311E6F7F5B5 /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -915,7 +878,6 @@
 			children = (
 				2124BE3A41ACFFF818568133F2CFE344 /* path_provider */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -924,7 +886,6 @@
 			children = (
 				57B0DDF551028C481930B39713C64F77 /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -933,7 +894,6 @@
 			children = (
 				05B7945B35655E916E7FFC0A2BAEC061 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -959,7 +919,6 @@
 				1061391D4E0F2509E61CD955E3E639E5 /* PositionStreamHandler.h */,
 				080310AD88709774992D653FF257A15C /* PositionStreamHandler.m */,
 			);
-			name = Handlers;
 			path = Handlers;
 			sourceTree = "<group>";
 		};
@@ -968,7 +927,6 @@
 			children = (
 				3844D9DF248454F5CFD4B778138A8B7F /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -977,7 +935,6 @@
 			children = (
 				FAB78D9231B21E50FA4BB4EF0859313A /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -986,7 +943,6 @@
 			children = (
 				621979325971D1AA9F0A2A3193583A2B /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1006,7 +962,6 @@
 			children = (
 				401D8E1B756E1F4B723EE6183C05F737 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1024,7 +979,6 @@
 			children = (
 				2DC299A983D83AD1F9DABB87D8635A73 /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -1033,7 +987,6 @@
 			children = (
 				4360707AA39D3CAA7C7461FD1F312742 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1057,7 +1010,6 @@
 			children = (
 				BE50F931A26A9570D2C628C6C60C199D /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1129,7 +1081,6 @@
 			children = (
 				5657F2C2C1A87A11511169DF8239C99F /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1138,7 +1089,6 @@
 			children = (
 				A0243C928773CA54C74DADD7A102AF5E /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1155,7 +1105,6 @@
 			children = (
 				942C4CD19D2CDA76C8BD5F66D9C96CEA /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -1173,7 +1122,6 @@
 			children = (
 				9C6B1AA3959AE4AF3C42C0722F40C815 /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -1183,7 +1131,6 @@
 				42586A86E8029522F398965193E095F6 /* FLTPathProviderPlugin.h */,
 				CE3D3FE52A71A54F4F1E6B284328FF44 /* FLTPathProviderPlugin.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1192,7 +1139,6 @@
 			children = (
 				AD30DA507B07AC0D5751C07E877FA88A /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -1202,7 +1148,6 @@
 				FBC402BB36EE4F20057BF1839B443B31 /* ErrorCodes.h */,
 				63EFFD4FC6F6E36AD3E122BAB3F83E1D /* ErrorCodes.m */,
 			);
-			name = Constants;
 			path = Constants;
 			sourceTree = "<group>";
 		};
@@ -1211,7 +1156,6 @@
 			children = (
 				0C95D8E86DC7C90AE0F466FB6BBA6F35 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1220,7 +1164,6 @@
 			children = (
 				60D09784097FF7328C41FE185FFBD2EA /* geolocator_apple */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -1229,7 +1172,6 @@
 			children = (
 				7FD7E843BB9CDB89BDB56D3C03016F2D /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1253,7 +1195,6 @@
 			children = (
 				4274EDD5FC5C669933D4291D74174616 /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
@@ -1262,7 +1203,6 @@
 			children = (
 				953DD4319508D2EDE8951179A2F86127 /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -1271,7 +1211,6 @@
 			children = (
 				B78E01CF140A01B9CED1DC63EE189F8A /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1280,7 +1219,6 @@
 			children = (
 				5CAE3B79D45B8B2C5CF78624B2777A8C /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1289,7 +1227,6 @@
 			children = (
 				CD4BA8EE8D269EB029A087571D2FA359 /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -1298,7 +1235,6 @@
 			children = (
 				EB166EDB48FF954B2F594A4BCEFF0DEC /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1307,7 +1243,6 @@
 			children = (
 				82E4C83BE7FAF077A76922325238F7DE /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
@@ -1316,7 +1251,6 @@
 			children = (
 				510EFCDB73F89A1BA65E351B7199D816 /* sqflite */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -1325,7 +1259,6 @@
 			children = (
 				CC8FD59E277D96C93030E2E7C28094B2 /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -1334,7 +1267,6 @@
 			children = (
 				D85E65BF7F1BF8A5D9A1E98A77AEDDCC /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1343,7 +1275,6 @@
 			children = (
 				F86FD07AD2CFE173EABDB09AE0BECA20 /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
@@ -1352,7 +1283,6 @@
 			children = (
 				2558D30EF31F4507A0FC448F82794C54 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1370,7 +1300,6 @@
 			children = (
 				6536BB99ADAAA87E6FA885AC090F940E /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -1388,7 +1317,6 @@
 			children = (
 				D88EA5B0BE89933930074FD1870B0321 /* barberapp */,
 			);
-			name = Desktop;
 			path = Desktop;
 			sourceTree = "<group>";
 		};
@@ -1397,7 +1325,6 @@
 			children = (
 				5AA12FFA0927EA6A40E1607CB0304CA6 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1406,7 +1333,6 @@
 			children = (
 				BFD20B09F3C1128F37BB24FD91DB4B21 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1433,7 +1359,6 @@
 			children = (
 				9D81B60A58CE76E171C1BBCDC435E084 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1442,7 +1367,6 @@
 			children = (
 				95354997937E380F7A58ADFC9DF1E1BE /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1461,7 +1385,6 @@
 				1998FD4D6BDBDAB3C341DB44F31BAEAF /* PermissionUtils.m */,
 				105D49F20CF355B091719C2F8CE62BA9 /* ServiceStatus.h */,
 			);
-			name = Utils;
 			path = Utils;
 			sourceTree = "<group>";
 		};
@@ -1470,7 +1393,6 @@
 			children = (
 				FC669D6545BDE6AB1E3A78F6EC0F512C /* url_launcher */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -1479,7 +1401,6 @@
 			children = (
 				2284E7CEF4A017D165979764314F2505 /* map_launcher */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -1488,7 +1409,6 @@
 			children = (
 				5EE388E2611081948CB6208B42DF767D /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1498,7 +1418,6 @@
 				C38E43CAC46D8E3321714F4C03010F12 /* standard */,
 				E3867D25A716FDC715F0CFF88B8D550F /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -1527,7 +1446,6 @@
 			children = (
 				451655A2777B492F3221DBB0ED9F73C2 /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
@@ -1537,7 +1455,6 @@
 				F0AA901987A2477885CA0C31AF10C482 /* FLTURLLauncherPlugin.h */,
 				1C2AB48B7877E0CF3CAA494D61A5D8DB /* FLTURLLauncherPlugin.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1546,7 +1463,6 @@
 			children = (
 				D25C2E6D72238AB35E3D60B471856091 /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -1555,7 +1471,6 @@
 			children = (
 				BFDBC8F5BF3E9BB2C6E415B622EB75B8 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1579,7 +1494,6 @@
 			children = (
 				C51E8721C7AAEA608E575CDD4F7FEE8F /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1597,7 +1511,6 @@
 			children = (
 				49F586D1365A6E35CEFE5DCACACFDC55 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1608,7 +1521,6 @@
 				ECD4775EA53FAE520C542530A747F7CD /* MapLauncherPlugin.m */,
 				A0083C3D623504A930CA33FDD3F88B9E /* SwiftMapLauncherPlugin.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1626,7 +1538,6 @@
 			children = (
 				71CA81801894B0A9DFAD68BCEBD1E7C5 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1635,7 +1546,6 @@
 			children = (
 				AE9D473DA3D09BC032F6B3736A0B2B2A /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1644,7 +1554,6 @@
 			children = (
 				213A8F769440C6B9B913F7B120BEA3DA /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1653,7 +1562,6 @@
 			children = (
 				1C3D1DCA8FD6E7D767B37E474E592F0D /* shared_preferences */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -1686,7 +1594,6 @@
 			children = (
 				9CCE3A41550DA3E542A2A537752BB848 /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1706,7 +1613,6 @@
 			children = (
 				FAB3EF36E58602EFA655E4CC591DBE02 /* ios */,
 			);
-			name = mobile;
 			path = mobile;
 			sourceTree = "<group>";
 		};
@@ -1715,7 +1621,6 @@
 			children = (
 				BBFFDA4F0601AB59C13E23E8B9AAE2B1 /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -1724,7 +1629,6 @@
 			children = (
 				B3D9B7B7FD69945B7169B16D8B52773B /* mobile */,
 			);
-			name = barberapp;
 			path = barberapp;
 			sourceTree = "<group>";
 		};
@@ -1733,7 +1637,6 @@
 			children = (
 				6EFF1295CD74001E08D546DF94725194 /* Desktop */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1742,7 +1645,6 @@
 			children = (
 				AF94A4E18205B8339F6F85558FB62035 /* ios */,
 			);
-			name = url_launcher;
 			path = url_launcher;
 			sourceTree = "<group>";
 		};
@@ -1751,7 +1653,6 @@
 			children = (
 				041171F9532E1831F786C9D3AB3DCD86 /* .. */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -1903,7 +1804,7 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
@@ -1968,7 +1869,7 @@
 			);
 			name = path_provider;
 			productName = path_provider;
-			productReference = DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider */;
+			productReference = DAE35F9EEF7110C6DC7645F4C250E0F5 /* path_provider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2129B9E0DCE64EA38C25BA6C89558D7 /* geolocator_apple */ = {
@@ -2294,10 +2195,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/Pods",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2364,10 +2265,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/Pods",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2529,10 +2430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/Pods",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2563,7 +2464,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider/path_provider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/path_provider/path_provider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2603,7 +2504,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3108,7 +3009,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider/path_provider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/path_provider/path_provider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3315,7 +3216,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3558,7 +3459,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider/path_provider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/path_provider/path_provider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3599,7 +3500,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
