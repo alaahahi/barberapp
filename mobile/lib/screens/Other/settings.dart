@@ -256,7 +256,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             Card(
               child: ListTile(
                 title: Text(
-                  'www.savingapp.com',
+                  'MODERN MAN - MAJED',
                   style: TextStyle(color: Colors.blue),
                 ),
                 leading: Icon(
@@ -264,14 +264,39 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   color: Colors.blue,
                 ),
                 onTap: () {
-                  savingappURL();
+
                 },
               ),
             ),
             Card(
               child: ListTile(
                 title: Text(
-                  '0096407501000951',
+                  '07724340017',
+                ),
+                leading: Icon(Icons.call),
+                onTap: () {
+                  Toool();
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text(
+                  'MODERN MAN',
+                  style: TextStyle(color: Colors.blue),
+                ),
+                leading: Icon(
+                  Icons.language,
+                  color: Colors.blue,
+                ),
+                onTap: () {
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: Text(
+                  '0096400000000000',
                 ),
                 leading: Icon(Icons.call),
                 onTap: () {
@@ -285,6 +310,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
         Section(
           title: 'Power By'.tr(),
           tiles: [
+            Card(
+              child: ListTile(
+                title: Text(
+                  '009647511077812',
+                ),
+                leading: Icon(Icons.call),
+                onTap: () {
+                  Toool();
+                },
+              ),
+            ),
             Container(
               margin: EdgeInsets.only(bottom: 100),
               child: Card(

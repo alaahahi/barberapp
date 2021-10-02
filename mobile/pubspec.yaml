@@ -71,7 +71,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/Saving-logo.png
+    - assets/images/
     - assets/images/line.png
     - assets/translations/
   fonts:

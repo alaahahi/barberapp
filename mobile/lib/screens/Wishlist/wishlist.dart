@@ -21,9 +21,9 @@ class Wishlist extends StatelessWidget {
       appBar: StyledAppBar(title: 'Wishlist'.tr()),
       body: ListView(
         children: [
-          RowTitle(title: 'Stores'.tr()),
+          RowTitle(title: 'favorit'.tr()),
           Container(
-            height: 260,
+            height:  MediaQuery.of(context).size.height * 0.4,
             width: double.infinity,
             child: Consumer<CompanyLikeService>(
               builder: (_, service, __) => service.isEmpty
@@ -38,6 +38,7 @@ class Wishlist extends StatelessWidget {
                     ),
             ),
           ),
+          /*
           RowTitle(title: 'Products'.tr()),
           Container(
             height: 320,
@@ -55,6 +56,8 @@ class Wishlist extends StatelessWidget {
                     ),
             ),
           ),
+
+           */
           SizedBox(height: 200),
         ],
       ),

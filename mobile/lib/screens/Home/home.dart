@@ -32,36 +32,69 @@ class HomePage extends StatelessWidget {
           Column(
             children: [
               SizedBox(height: 5),
+            AnimatedSize(
+              curve: Curves.linear,
+              duration: Duration(milliseconds:3000),
+              child:
               //ProfileRow(),
-              Container(height: 75, width:MediaQuery.of(context).size.width*0.9,    decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(50)),
-                color:Color.fromRGBO(236, 194, 0, 0.9),
-              ),
-               child:  IconButton(
-                  icon: Icon(
-                    Icons.attach_money_outlined,
-                    color: Color.fromRGBO(0, 0, 0, 1),
-                    size: 50,
+              Row(
+                children: [
+                  Container(height: 75, width:MediaQuery.of(context).size.width*0.2,    decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                    color:Color.fromRGBO(236, 194, 0, 0.9),
                   ),
-                  onPressed: () => null,
-              ),
-              ),
+                   child:  IconButton(
+                      icon: Icon(
+                        Icons.attach_money_outlined,
+                        color: Color.fromRGBO(0, 0, 0, 1),
+                        size: 50,
+                      ),
+                      onPressed: () => null,
+                  ),
+                  ),
+                  SizedBox(width:MediaQuery.of(context).size.width*0.1),
+                  Container(height: 75, width:MediaQuery.of(context).size.width*0.4,    decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                    color:Color.fromRGBO(236, 194, 0, 0),
+                      image: DecorationImage(
+                          image: AssetImage("assets/images/logo-M.png"), )
+                  ),
+                  ),
+                                    Container(height: 75, width:MediaQuery.of(context).size.width*0.3,    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(50)),
+                      color:Color.fromRGBO(236, 194, 0, 0),
+                  ),
+                    child:  Center(child: Text('MODERN MAN', style: TextStyle(color: Color.fromRGBO(236, 194, 0, 0.9),fontSize: 30),)),
+                  ),
+
+                ],
+              )),
 
 
               SizedBox(height: 5),
-              FutureBuilder(
-                future: context.read<Api>().getSlider(),
-                builder: (context, AsyncSnapshot<List<SliderModel>> snapshot) {
-                  if ( snapshot.hasData) {
-                    return   CarouselBanner(imageUrls:snapshot.data, isloading: true);
-                  }
-                  return Container();
-                },
+              AnimatedSize(
+                curve: Curves.easeInOutCubic,
+                duration: Duration(milliseconds:1200),
+                child:FutureBuilder(
+                  future: context.read<Api>().getSlider(),
+                  builder: (context, AsyncSnapshot<List<SliderModel>> snapshot) {
+                    if ( snapshot.hasData) {
+                      return   CarouselBanner(imageUrls:snapshot.data, isloading: true);
+                    }
+                    return Container();
+                  },
+                ),
               ),
 
-              SizedBox(height: 10),
 
-              RandomCategoryList(),
+              SizedBox(height: 10),
+              AnimatedSize(
+                  curve: Curves.easeInOutCubic,
+                  duration: Duration(milliseconds:2000),
+                  child:RandomCategoryList(),
+              ),
+
+
 
               //freeGifts(),
 

@@ -37,7 +37,6 @@ class RandomCategoryList extends StatelessWidget {
               ? GridView.count(
                   childAspectRatio:  500 / 500,
                   crossAxisCount: 1,
-
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
                   children: renderChildren(context, snapshot.data),
@@ -58,7 +57,7 @@ class RandomCategoryList extends StatelessWidget {
           Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height * 0.05,
+                height: MediaQuery.of(context).size.height * 0.06,
                 margin: EdgeInsets.all( MediaQuery.of(context).size.width*0.05),
               ),
             ],
@@ -95,39 +94,55 @@ class CategoryButton extends StatelessWidget {
   final String textName;
   final String imgItem;
   final void Function() onClick;
-
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onClick,
-      child: Container(
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(50)),
-            color:Color.fromRGBO(0, 0, 0, 0.9),
+      child: Stack(
+          alignment: Alignment.center,
+          children: <Widget>[
 
-      ),
-        margin:EdgeInsets.only(bottom: 10),
-        child: Column(
-
-          children: [
             Container(
+                width: MediaQuery.of(context).size.width ,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(50)),
+                  color:Color.fromRGBO(0, 0, 0, 0.9),
 
-              height: MediaQuery.of(context).size.height * 0.2,
-              margin: EdgeInsets.all(5),
-              child: CachedNetworkImage(
-                imageUrl: imgItem,
-                fit: BoxFit.cover,
-              ),
-            ),
-            Container(
-
-                height: MediaQuery.of(context).size.height * 0.03,
+                ),
+                margin:EdgeInsets.only(bottom: 10),
                 child:
-            Text(textName,style: TextStyle(color: Color.fromRGBO(236, 194, 0, 1)),)
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(50),
+                  child:  CachedNetworkImage(
+                    imageUrl: imgItem,
+                    fit: BoxFit.cover,
+                  ),
+                )
             ),
-          ],
-        ),
-      ),
+            Container(
+              width: MediaQuery.of(context).size.width ,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+                color:Color.fromRGBO(255, 255, 255, 0.3),
+
+              ),
+              margin:EdgeInsets.only(bottom: 10),
+            ),
+            Container(
+                child:
+                Text(textName,style: TextStyle(color: Color.fromRGBO(236, 194, 0, 1),fontSize:40,
+                  shadows: <Shadow>[
+                    Shadow(
+                      offset: Offset(3, 3),
+                      blurRadius: 3.0,
+                      color: Color.fromARGB(0, 0, 0, 255),
+                    ),
+                  ],
+                ),)
+            ),
+          ]
+      )
+
     );
   }
 }
