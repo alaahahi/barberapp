@@ -6,7 +6,6 @@ import 'package:coupons/widgets/Cards/LikableCard.dart';
 import 'package:coupons/widgets/Cards/LikeButton.dart';
 import 'package:flutter/material.dart';
 import 'package:coupons/widgets/common/RemoteListNGridScaffold.dart';
-import 'package:map_launcher/map_launcher.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 

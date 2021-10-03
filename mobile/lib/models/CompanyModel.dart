@@ -1,4 +1,4 @@
-import 'package:map_launcher/map_launcher.dart';
+
 
 import 'helper.dart';
 
@@ -26,7 +26,6 @@ class CompanyModel {
     this.logo,
     // this.distance,
     this.ratting,
-    this.location,
     this.openMins,
     this.closeMins,
     this.phone,
@@ -43,7 +42,6 @@ class CompanyModel {
   // final double distance;
   final String phone;
   final String info;
-  final Coords location;
   final int openMins;
   final int closeMins;
   final String color;
@@ -70,10 +68,6 @@ class CompanyModel {
       logo: fixPhotoUrl(url: json['logo']) ?? '',
       category: json['category'] ?? '',
       // categoryId: json['categoryId'] ?? '',
-      location: Coords(
-        double.parse(json['location_lat'].toString()),
-        double.parse(json['location_lng'].toString()),
-      ),
       ratting: json["ratting"] == null ? null : json["ratting"],
       closeMins: int.parse(json['close_minute'].toString()),
       openMins: int.parse(json['open_minute'].toString()),

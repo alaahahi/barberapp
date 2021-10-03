@@ -1,4 +1,3 @@
-import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:coupons/data/api.dart';
 import 'package:coupons/screens/Home/ActivationBox.dart';
 import 'package:coupons/screens/Home/ActivationInput.dart';
@@ -8,6 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'dart:ui' as ui;
 import 'dart:ui' as ui;
 import 'package:easy_localization/easy_localization.dart';
 import 'package:coupons/widgets/common/LangaugeDropdown.dart';

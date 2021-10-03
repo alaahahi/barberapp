@@ -1,4 +1,3 @@
-import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:coupons/models/OrderModel.dart';
 
 import 'package:coupons/screens/Orders/orderShow.dart';
@@ -161,67 +160,7 @@ class _OrderCardState extends State<OrderCard> {
                                     alignment: Alignment.centerRight,
                                     child: Container(
                                       height:
-                                          MediaQuery.of(context).size.height /
-                                              19,
-                                      child: AnimatedButton(
-                                        width:
-                                            MediaQuery.of(context).size.width /
-                                                5,
-                                        text: 'Cancel'.tr(),
-                                        color: Colors.red,
-                                        pressEvent: () {
-                                          AwesomeDialog(
-                                            context: context,
-                                            keyboardAware: true,
-                                            dismissOnBackKeyPress: false,
-                                            dialogType: DialogType.WARNING,
-                                            animType: AnimType.BOTTOMSLIDE,
-                                            body: Column(
-                                              children: [
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.only(
-                                                          left: 20,
-                                                          right: 20,
-                                                          top: 10,
-                                                          bottom: 10),
-                                                  child: Text(
-                                                    "are sure of the deleting process"
-                                                        .tr(),
-                                                    style: TextStyle(
-                                                      color:
-                                                          Colors.blue.shade700,
-                                                      fontSize: 24,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                    ),
-                                                  ),
-                                                ),
-                                                Row(
-                                                  mainAxisAlignment:
-                                                      MainAxisAlignment
-                                                          .spaceEvenly,
-                                                  children: [
-                                                    buttenCancel(
-                                                        Colors.green, "Yes",
-                                                        () {
-                                                      setstatIsCard();
-                                                      deletsdId();
-                                                    }),
-                                                    buttenCancel(
-                                                        Colors.red, "No", () {
-                                                      Navigator.of(context,
-                                                              rootNavigator:
-                                                                  true)
-                                                          .pop();
-                                                    }),
-                                                  ],
-                                                ),
-                                              ],
-                                            ),
-                                          ).show();
-                                        },
-                                      ),
+                                          MediaQuery.of(context).size.height / 19,
                                     ),
                                   )
                                 : widget.order.isAccepted == 1
@@ -383,16 +322,6 @@ class _OrderCardState extends State<OrderCard> {
     }
   }
 
-  buildShowDialog(BuildContext context) {
-    return showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (BuildContext context) {
-          return Center(
-            child: CircularProgressIndicator(),
-          );
-        });
-  }
 
   void setstatIsCard() {
     setState(() {
