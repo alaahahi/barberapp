@@ -1,7 +1,5 @@
 import 'package:coupons/data/api.dart';
-import 'package:coupons/screens/Home/ActivationBox.dart';
 import 'package:coupons/screens/Home/ActivationInput.dart';
-import 'package:coupons/services/activation.dart';
 import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
@@ -13,7 +11,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:coupons/widgets/common/LangaugeDropdown.dart';
 import 'package:provider/provider.dart';
 
-import 'package:url_launcher/url_launcher.dart';
 import 'package:coupons/models/UserInfoModel.dart';
 
 String number = " ";
@@ -275,7 +272,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 leading: Icon(Icons.call),
                 onTap: () {
-                  Toool();
                 },
               ),
             ),
@@ -300,7 +296,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 leading: Icon(Icons.call),
                 onTap: () {
-                  Toool();
                 },
               ),
             ),
@@ -317,7 +312,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 leading: Icon(Icons.call),
                 onTap: () {
-                  Toool();
                 },
               ),
             ),
@@ -334,7 +328,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     color: Colors.blue,
                   ),
                   onTap: () {
-                    intellijappURL();
                   },
                 ),
               ),
@@ -346,32 +339,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
     );
   }
 
-  void savingappURL() async {
-    const url = 'https://www.savingapp.co/';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
 
-  void intellijappURL() async {
-    const url = 'https://intellijapp.github.io/';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
 
-  void Toool() async {
-    const url = 'tel://+964 750 1000 951';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+
+
 
   Widget _editTitleTextField(String inputText, String phone) {
     initialText = inputText;
