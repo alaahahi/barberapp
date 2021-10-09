@@ -1,4 +1,4 @@
-import 'package:coupons/widgets/Items/DisplayMode.dart';
+import 'package:barber/widgets/Items/DisplayMode.dart';
 import 'package:flutter/material.dart';
 
 class ListActionBar extends StatelessWidget {

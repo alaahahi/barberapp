@@ -1,8 +1,8 @@
-import 'package:coupons/screens/Home/home.dart';
-import 'package:coupons/screens/Search/search.dart';
-import 'package:coupons/screens/Cart/Cart.dart';
-import 'package:coupons/screens/Other/settings.dart';
-import 'package:coupons/screens/Wishlist/wishlist.dart';
+import 'package:barber/screens/Home/home.dart';
+import 'package:barber/screens/Search/search.dart';
+import 'package:barber/screens/Cart/Cart.dart';
+import 'package:barber/screens/Other/settings.dart';
+import 'package:barber/screens/Wishlist/wishlist.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

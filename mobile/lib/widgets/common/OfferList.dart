@@ -1,5 +1,5 @@
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/widgets/Cards/LikableCard.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/widgets/Cards/LikableCard.dart';
 import 'package:flutter/material.dart';
 
 class OfferList extends StatelessWidget {

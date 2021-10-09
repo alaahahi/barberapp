@@ -1,7 +1,7 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/ActivationResult.dart';
-import 'package:coupons/screens/Home/ActivationInput.dart';
-import 'package:coupons/services/activation.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/ActivationResult.dart';
+import 'package:barber/screens/Home/ActivationInput.dart';
+import 'package:barber/services/activation.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

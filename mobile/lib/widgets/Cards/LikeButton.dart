@@ -1,4 +1,4 @@
-import 'package:coupons/services/likes.dart';
+import 'package:barber/services/likes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

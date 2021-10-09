@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/models/OrderModel.dart';
+import 'package:barber/models/OrderModel.dart';
 import 'package:flutter/material.dart';
 
 class productCart extends StatelessWidget {

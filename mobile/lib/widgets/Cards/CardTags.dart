@@ -1,4 +1,4 @@
-import 'package:coupons/Utils/ColorUtils.dart';
+import 'package:barber/Utils/ColorUtils.dart';
 import 'package:flutter/material.dart';
 
 class CardTags extends StatelessWidget {

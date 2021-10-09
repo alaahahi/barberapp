@@ -1,9 +1,9 @@
-import 'package:coupons/models/OrderModel.dart';
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/models/OrderModel.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:coupons/screens/Orders/productCart.dart';
+import 'package:barber/screens/Orders/productCart.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class orderShow extends StatelessWidget {

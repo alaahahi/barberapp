@@ -1,8 +1,8 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/services/activation.dart';
-import 'package:coupons/services/likes.dart';
-import 'package:coupons/services/cartService.dart';
-import 'package:coupons/widgets/Layouts/BottomNavBarApp.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/services/activation.dart';
+import 'package:barber/services/likes.dart';
+import 'package:barber/services/cartService.dart';
+import 'package:barber/widgets/Layouts/BottomNavBarApp.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:provider/provider.dart';

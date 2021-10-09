@@ -1,6 +1,6 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/AppConfigModel.dart';
-import 'package:coupons/screens/Other/weeklyPullPage.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/AppConfigModel.dart';
+import 'package:barber/screens/Other/weeklyPullPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

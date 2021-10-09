@@ -1,4 +1,4 @@
-import 'package:coupons/models/helper.dart';
+import 'package:barber/models/helper.dart';
 
 class SliderModel {
   SliderModel({
@@ -55,7 +55,7 @@ class SliderModel {
 
 /*import 'dart:convert';
 
-import 'package:coupons/models/api_response.dart';
+import 'package:barber/models/api_response.dart';
 
 SliderResponse sliderResponseFromJson(String str) =>
     SliderResponse.fromJson(json.decode(str));

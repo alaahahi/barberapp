@@ -1,7 +1,7 @@
-import 'package:coupons/models/SearchResult.dart';
-import 'package:coupons/widgets/Cards/InfoCard.dart';
-import 'package:coupons/widgets/Cards/LikableCard.dart';
-import 'package:coupons/widgets/common/RowTitle.dart';
+import 'package:barber/models/SearchResult.dart';
+import 'package:barber/widgets/Cards/InfoCard.dart';
+import 'package:barber/widgets/Cards/LikableCard.dart';
+import 'package:barber/widgets/common/RowTitle.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

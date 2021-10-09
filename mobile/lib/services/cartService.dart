@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:coupons/services/CartItem.dart';
+import 'package:barber/services/CartItem.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CartService extends ChangeNotifier {

@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/services/likes.dart';
-import 'package:coupons/services/cartService.dart';
-import 'package:coupons/widgets/Cards/LikeButton.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/services/likes.dart';
+import 'package:barber/services/cartService.dart';
+import 'package:barber/widgets/Cards/LikeButton.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

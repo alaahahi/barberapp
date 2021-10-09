@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:coupons/data/multipartFile.dart';
+import 'package:barber/data/multipartFile.dart';
 import 'package:http/http.dart' as http;
 
 abstract class Fetcher {

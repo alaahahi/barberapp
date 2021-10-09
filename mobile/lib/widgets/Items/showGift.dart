@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/models/GiftModel.dart';
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/models/GiftModel.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 

@@ -1,8 +1,8 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/GiftModel.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/GiftModel.dart';
 import 'package:provider/provider.dart';
-import 'package:coupons/models/AppConfigModel.dart';
-import 'package:coupons/screens/Other/gifts.dart';
+import 'package:barber/models/AppConfigModel.dart';
+import 'package:barber/screens/Other/gifts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

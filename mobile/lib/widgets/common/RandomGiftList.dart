@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/data/api.dart';
-import 'package:coupons/screens/Home/ActivationBox.dart';
-import 'package:coupons/screens/Home/ActivationInput.dart';
-import 'package:coupons/services/activation.dart';
-import 'package:coupons/widgets/Items/showGift.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/screens/Home/ActivationBox.dart';
+import 'package:barber/screens/Home/ActivationInput.dart';
+import 'package:barber/services/activation.dart';
+import 'package:barber/widgets/Items/showGift.dart';
 
-import 'package:coupons/models/GiftModel.dart';
+import 'package:barber/models/GiftModel.dart';
 
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';

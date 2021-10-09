@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/screens/Company/company.dart';
-import 'package:coupons/services/likes.dart';
-import 'package:coupons/widgets/Cards/CardTags.dart';
-import 'package:coupons/widgets/Cards/LikeButton.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/screens/Company/company.dart';
+import 'package:barber/services/likes.dart';
+import 'package:barber/widgets/Cards/CardTags.dart';
+import 'package:barber/widgets/Cards/LikeButton.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';

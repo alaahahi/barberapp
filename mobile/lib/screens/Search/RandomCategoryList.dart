@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/CategoriesModel.dart';
-import 'package:coupons/screens/Category/category.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/CategoriesModel.dart';
+import 'package:barber/screens/Category/category.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';

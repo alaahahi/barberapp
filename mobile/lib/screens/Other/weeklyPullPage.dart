@@ -1,8 +1,8 @@
-import 'package:coupons/models/WeeklyAndMonthlyPullModel.dart';
-import 'package:coupons/widgets/Items/WeeklyPullItem.dart';
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/models/WeeklyAndMonthlyPullModel.dart';
+import 'package:barber/widgets/Items/WeeklyPullItem.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/material.dart';
-import 'package:coupons/data/api.dart';
+import 'package:barber/data/api.dart';
 import 'package:provider/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 

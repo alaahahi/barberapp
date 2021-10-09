@@ -1,14 +1,14 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/services/likes.dart';
-import 'package:coupons/widgets/Cards/InfoCard.dart';
-import 'package:coupons/widgets/Cards/LikableCard.dart';
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
-import 'package:coupons/widgets/common/RemoteList.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/services/likes.dart';
+import 'package:barber/widgets/Cards/InfoCard.dart';
+import 'package:barber/widgets/Cards/LikableCard.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/widgets/common/RemoteList.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:coupons/widgets/common/RowTitle.dart';
+import 'package:barber/widgets/common/RowTitle.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:provider/provider.dart';
 

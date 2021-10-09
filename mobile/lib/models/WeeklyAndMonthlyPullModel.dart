@@ -1,7 +1,7 @@
 // To parse this JSON data, do
 //
 //     final weeklyAndMonthlyPullModel = weeklyAndMonthlyPullModelFromJson(jsonString);
-import 'package:coupons/models/helper.dart';
+import 'package:barber/models/helper.dart';
 
 //List<WeeklyAndMonthlyPullModel> weeklyAndMonthlyPullModelFromJson(String str) =>
 //    List<WeeklyAndMonthlyPullModel>.from(

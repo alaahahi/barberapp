@@ -1,5 +1,5 @@
-// import 'package:coupons/screens/Category/category.dart';
-// import 'package:coupons/screens/informations.dart';
+// import 'package:barber/screens/Category/category.dart';
+// import 'package:barber/screens/informations.dart';
 // import 'package:flutter/material.dart';
 
 // class SavingApp extends StatelessWidget {

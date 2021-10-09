@@ -2,21 +2,21 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:coupons/data/fetcher.dart';
-import 'package:coupons/models/CategoriesModel.dart';
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/models/OrderModel.dart';
-import 'package:coupons/models/SearchResult.dart';
-import 'package:coupons/models/GiftModel.dart';
-import 'package:coupons/models/AdminCompany.dart';
-import 'package:coupons/models/SliderModel.dart';
-import 'package:coupons/services/CartItem.dart';
-import 'package:coupons/models/ActivationResult.dart';
-import 'package:coupons/models/WeeklyAndMonthlyPullModel.dart';
+import 'package:barber/data/fetcher.dart';
+import 'package:barber/models/CategoriesModel.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/models/OrderModel.dart';
+import 'package:barber/models/SearchResult.dart';
+import 'package:barber/models/GiftModel.dart';
+import 'package:barber/models/AdminCompany.dart';
+import 'package:barber/models/SliderModel.dart';
+import 'package:barber/services/CartItem.dart';
+import 'package:barber/models/ActivationResult.dart';
+import 'package:barber/models/WeeklyAndMonthlyPullModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:coupons/models/AppConfigModel.dart';
-import 'package:coupons/models/UserInfoModel.dart';
+import 'package:barber/models/AppConfigModel.dart';
+import 'package:barber/models/UserInfoModel.dart';
 import 'package:path_provider/path_provider.dart';
 
 class Api extends Fetcher {

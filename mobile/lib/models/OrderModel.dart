@@ -1,4 +1,4 @@
-import 'package:coupons/models/helper.dart';
+import 'package:barber/models/helper.dart';
 
 class OrderModel {
   OrderModel({

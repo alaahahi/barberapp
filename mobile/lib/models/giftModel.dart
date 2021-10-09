@@ -1,5 +1,5 @@
 
-import 'package:coupons/models/helper.dart';
+import 'package:barber/models/helper.dart';
 
 //List<GiftModel> temperaturesFromJson(String str) =>
 //    List<GiftModel>.from(json.decode(str).map((x) => GiftModel.fromJson(x)));

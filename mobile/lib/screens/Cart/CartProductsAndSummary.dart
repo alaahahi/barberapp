@@ -1,8 +1,8 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/screens/Cart/CartSummary.dart';
-import 'package:coupons/services/cartService.dart';
-import 'package:coupons/widgets/Cards/LikableCard.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/screens/Cart/CartSummary.dart';
+import 'package:barber/services/cartService.dart';
+import 'package:barber/widgets/Cards/LikableCard.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

@@ -1,5 +1,5 @@
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/models/helper.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/helper.dart';
 
 class AdminCompanyModel {
   AdminCompanyModel({

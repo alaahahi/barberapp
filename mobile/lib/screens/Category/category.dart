@@ -1,7 +1,7 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/CategoriesModel.dart';
-import 'package:coupons/widgets/Cards/InfoCard.dart';
-import 'package:coupons/widgets/common/RemoteListNGridScaffold.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/CategoriesModel.dart';
+import 'package:barber/widgets/Cards/InfoCard.dart';
+import 'package:barber/widgets/common/RemoteListNGridScaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

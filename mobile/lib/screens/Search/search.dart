@@ -1,10 +1,10 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/SearchResult.dart';
-import 'package:coupons/screens/Search/RandomCategoryList.dart';
-import 'package:coupons/screens/Search/SearchHistoryList.dart';
-import 'package:coupons/screens/Search/SearchResultList.dart';
-import 'package:coupons/screens/Search/SearchStatue.dart';
-import 'package:coupons/services/searchHistoryService.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/SearchResult.dart';
+import 'package:barber/screens/Search/RandomCategoryList.dart';
+import 'package:barber/screens/Search/SearchHistoryList.dart';
+import 'package:barber/screens/Search/SearchResultList.dart';
+import 'package:barber/screens/Search/SearchStatue.dart';
+import 'package:barber/services/searchHistoryService.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:easy_localization/easy_localization.dart';

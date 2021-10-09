@@ -1,13 +1,13 @@
-import 'package:coupons/models/OrderModel.dart';
+import 'package:barber/models/OrderModel.dart';
 
-import 'package:coupons/screens/Orders/orderShow.dart';
+import 'package:barber/screens/Orders/orderShow.dart';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:coupons/data/api.dart';
+import 'package:barber/data/api.dart';
 import 'package:provider/provider.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'package:coupons/screens/Orders/feedback.dart';
+import 'package:barber/screens/Orders/feedback.dart';
 
 class OrderCard extends StatefulWidget {
   const OrderCard({

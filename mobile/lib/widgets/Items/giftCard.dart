@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 
-import 'package:coupons/models/GiftModel.dart';
+import 'package:barber/models/GiftModel.dart';
 import 'package:flutter/material.dart';
 
 class GiftCard extends StatelessWidget {

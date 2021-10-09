@@ -1,17 +1,15 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/screens/Home/ActivationInput.dart';
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/screens/Home/ActivationInput.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'dart:ui' as ui;
-import 'dart:ui' as ui;
 import 'package:easy_localization/easy_localization.dart';
-import 'package:coupons/widgets/common/LangaugeDropdown.dart';
+import 'package:barber/widgets/common/LangaugeDropdown.dart';
 import 'package:provider/provider.dart';
 
-import 'package:coupons/models/UserInfoModel.dart';
+import 'package:barber/models/UserInfoModel.dart';
 
 String number = " ";
 String x, y;

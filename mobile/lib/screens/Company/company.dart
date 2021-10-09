@@ -1,9 +1,9 @@
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/models/ProductModel.dart';
-import 'package:coupons/widgets/Cards/LikableCard.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/ProductModel.dart';
+import 'package:barber/widgets/Cards/LikableCard.dart';
 import 'package:flutter/material.dart';
-import 'package:coupons/widgets/common/RemoteListNGridScaffold.dart';
+import 'package:barber/widgets/common/RemoteListNGridScaffold.dart';
 import 'package:provider/provider.dart';
 
 class CompanyPage extends StatefulWidget {

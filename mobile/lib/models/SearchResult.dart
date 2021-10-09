@@ -1,5 +1,5 @@
-import 'package:coupons/models/CompanyModel.dart';
-import 'package:coupons/models/ProductModel.dart';
+import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/ProductModel.dart';
 
 class SearchResult {
   SearchResult({

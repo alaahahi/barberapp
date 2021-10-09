@@ -1,9 +1,9 @@
 import 'dart:ffi';
 
-import 'package:coupons/data/api.dart';
-import 'package:coupons/models/OrderModel.dart';
+import 'package:barber/data/api.dart';
+import 'package:barber/models/OrderModel.dart';
 
-import 'package:coupons/widgets/Layouts/StyledAppBar.dart';
+import 'package:barber/widgets/Layouts/StyledAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:easy_localization/easy_localization.dart';

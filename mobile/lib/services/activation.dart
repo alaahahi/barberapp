@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coupons/models/ActivationResult.dart';
+import 'package:barber/models/ActivationResult.dart';
 
 enum ActivationState {
   active,
