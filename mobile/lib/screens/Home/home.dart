@@ -69,9 +69,6 @@ class HomePage extends StatelessWidget {
                     return Container();
                   },
                 ),
-
-
-
               SizedBox(height: 30),
               RandomCategoryList(),
               SizedBox(height: 10),
