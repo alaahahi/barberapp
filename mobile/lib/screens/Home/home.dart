@@ -22,21 +22,18 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: SingleChildScrollView(
+        child: Container(
+        decoration: BoxDecoration(
+        image: DecorationImage(
+        image: AssetImage("assets/images/line.png"), repeat: ImageRepeat.repeat )),
+    child:
+    SingleChildScrollView(
           padding: EdgeInsets.only(bottom: 60),
-          child:      Container(
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage("assets/images/line.png"), repeat: ImageRepeat.repeat )),
-         child:
+          child:
           Column(
             children: [
               SizedBox(height: 5),
-            AnimatedSize(
-              curve: Curves.linear,
-              duration: Duration(milliseconds:3000),
-              child:
-              //ProfileRow(),
+
               Row(
                 children: [
                   Container(height: 75, width:MediaQuery.of(context).size.width*0.2,    decoration: BoxDecoration(
@@ -68,14 +65,11 @@ class HomePage extends StatelessWidget {
                   ),
 
                 ],
-              )),
+              ),
 
 
               SizedBox(height: 5),
-              AnimatedSize(
-                curve: Curves.easeInOutCubic,
-                duration: Duration(milliseconds:1200),
-                child:FutureBuilder(
+                  FutureBuilder(
                   future: context.read<Api>().getSlider(),
                   builder: (context, AsyncSnapshot<List<SliderModel>> snapshot) {
                     if ( snapshot.hasData) {
@@ -84,20 +78,11 @@ class HomePage extends StatelessWidget {
                     return Container();
                   },
                 ),
-              ),
+
 
 
               SizedBox(height: 10),
-              AnimatedSize(
-                  curve: Curves.easeInOutCubic,
-                  duration: Duration(milliseconds:2000),
-                  child:RandomCategoryList(),
-              ),
-
-
-
-              //freeGifts(),
-
+              RandomCategoryList(),
               SizedBox(height: 10),
             ],
           ),
