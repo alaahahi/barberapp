@@ -1,21 +1,12 @@
 import 'package:barber/data/api.dart';
-import 'package:barber/models/SearchResult.dart';
 import 'package:barber/models/SliderModel.dart';
-import 'package:barber/screens/Other/freeGifts.dart';
-import 'package:barber/screens/Other/weeklyWithdrawals.dart';
 import 'package:barber/screens/Search/RandomCategoryList.dart';
-import 'package:barber/widgets/Cards/InfoCard.dart';
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:barber/widgets/CarouselBanner.dart';
-import 'package:barber/widgets/common/RowTitle.dart';
-import 'package:barber/widgets/common/OfferList.dart';
-import 'package:barber/screens/Home/ActivationBox.dart';
 import 'package:provider/provider.dart';
-import 'package:shimmer/shimmer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -68,7 +59,7 @@ class HomePage extends StatelessWidget {
               ),
 
 
-              SizedBox(height: 5),
+              SizedBox(height: 15),
                   FutureBuilder(
                   future: context.read<Api>().getSlider(),
                   builder: (context, AsyncSnapshot<List<SliderModel>> snapshot) {
@@ -81,7 +72,7 @@ class HomePage extends StatelessWidget {
 
 
 
-              SizedBox(height: 10),
+              SizedBox(height: 30),
               RandomCategoryList(),
               SizedBox(height: 10),
             ],

@@ -21,13 +21,13 @@ class CarouselBanner extends StatelessWidget {
                   .map((url) => Container(
                         child: CachedNetworkImage(
                           fit: BoxFit.cover,
-                          width:MediaQuery.of(context).size.width,
+                          width:MediaQuery.of(context).size.width*0.95,
                           imageUrl: url.img,
                         ),
                       ))
                   .toList(),
               options: CarouselOptions(
-                height: MediaQuery.of(context).size.height * 0.33,
+                height: MediaQuery.of(context).size.height * 0.44,
                 enableInfiniteScroll: true,
                 autoPlay: true,
                 aspectRatio: 16/9,
