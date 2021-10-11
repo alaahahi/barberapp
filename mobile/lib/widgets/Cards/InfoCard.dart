@@ -32,7 +32,7 @@ class InfoCard extends StatelessWidget {
   }
 
   double getHeight(BuildContext context) {
-    return height ?? (vertical ? 220 : 250);
+    return height ?? (vertical ? MediaQuery.of(context).size.height * 0.5  : MediaQuery.of(context).size.height * 0.5 );
   }
 
   @override
@@ -80,7 +80,7 @@ class InfoCard extends StatelessWidget {
             flex: 4,
             child: Stack(
               children: [
-                Container(height: 120, child: renderImage()),
+                Container(height:  MediaQuery.of(context).size.height * 0.4, child: renderImage()),
                 if (company.category != null && company.category.isNotEmpty)
                   CardTags(title: company.category, color: Colors.orange),
                 SizedBox(width: 5.0),

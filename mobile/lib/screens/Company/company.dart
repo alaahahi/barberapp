@@ -74,6 +74,7 @@ class _CompanyPageState extends State<CompanyPage> {
         vertical: shrink,
         showEdit: widget.showEdit,
       ),
+
     );
   }
 }

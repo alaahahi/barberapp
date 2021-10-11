@@ -58,34 +58,6 @@ class LikableCard extends StatelessWidget {
                 ),
 
                  */
-                if (!cartService.isCarted(product.id))
-                  Positioned(
-                    bottom: 0,
-                    left:
-                        EasyLocalization.of(context).locale.languageCode == 'en'
-                            ? null
-                            : 0,
-                    right:
-                        EasyLocalization.of(context).locale.languageCode == 'en'
-                            ? 0
-                            : null,
-                    child: Card(
-                      margin: EdgeInsets.all(4),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30.0),
-                      ),
-                      elevation: 4,
-                      clipBehavior: Clip.hardEdge,
-                      child: IconButton(
-                        icon: Icon(
-                          Icons.add_shopping_cart,
-                          color: Colors.blue,
-                          size: 30,
-                        ),
-                        onPressed: () => cartService.change(product.id, 1),
-                      ),
-                    ),
-                  ),
               ],
             ),
           ),

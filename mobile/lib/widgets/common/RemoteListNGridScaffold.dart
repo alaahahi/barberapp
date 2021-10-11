@@ -44,7 +44,7 @@ class _RemoteListNGridScaffoldState<T>
                 fit: BoxFit.cover,
                 width: double.infinity,
                 imageUrl: widget.photo ?? widget.logo,
-                height: MediaQuery.of(context).size.height * 0.6,
+                height: MediaQuery.of(context).size.height * 0.5,
               ),
               if (widget.logo != null && widget.logo.isNotEmpty)
                 Card(

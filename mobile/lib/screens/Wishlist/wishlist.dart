@@ -34,7 +34,7 @@ class Wishlist extends StatelessWidget {
                           .getCompaniesByIds(ids: service.items),
                       ifEmpty: renderEmpty(),
                       scrollDirection: Axis.horizontal,
-                      filler: (item) => InfoCard(company: item, width: 280),
+                      filler: (item) => InfoCard(company: item, width:  MediaQuery.of(context).size.width * 0.8),
                     ),
             ),
           ),
