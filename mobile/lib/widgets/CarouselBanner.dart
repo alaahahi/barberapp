@@ -21,7 +21,7 @@ class CarouselBanner extends StatelessWidget {
                   .map((url) => Container(
                         child: CachedNetworkImage(
                           fit: BoxFit.cover,
-                          width:MediaQuery.of(context).size.width*0.95,
+                          width:MediaQuery.of(context).size.width,
                           imageUrl: url.img,
                         ),
                       ))
