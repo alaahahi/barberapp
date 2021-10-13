@@ -35,15 +35,15 @@ class RandomCategoryList extends StatelessWidget {
 
           return isGrid
               ? GridView.count(
-                  childAspectRatio:  500 / 500,
-                  crossAxisCount: 1,
+                  childAspectRatio:  8 / 7,
+                  crossAxisCount: 2,
                   shrinkWrap: true,
                   physics: NeverScrollableScrollPhysics(),
                   children: renderChildren(context, snapshot.data),
                 )
               : GridView.count(
-            childAspectRatio: 8 / 5,
-            crossAxisCount: 1,
+            childAspectRatio: 8 / 7,
+            crossAxisCount: 2,
 
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
@@ -109,7 +109,7 @@ class CategoryButton extends StatelessWidget {
                   color:Color.fromRGBO(0, 0, 0, 0.9),
 
                 ),
-                margin:EdgeInsets.only(bottom: 10),
+                margin:EdgeInsets.all(10),
                 child:
                 ClipRRect(
                   borderRadius: BorderRadius.circular(50),
@@ -126,7 +126,7 @@ class CategoryButton extends StatelessWidget {
                 color:Color.fromRGBO(255, 255, 255, 0.3),
 
               ),
-              margin:EdgeInsets.only(bottom: 10),
+              margin:EdgeInsets.all(10),
             ),
             Container(
                 child:

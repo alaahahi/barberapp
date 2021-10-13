@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:barber/widgets/CarouselBanner.dart';
+import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -38,6 +39,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                 children: [
                   GestureDetector(
                     onTap: (){
+                      pushNewScreen(
+                        context,
+                        screen: null,
+                      );
                       print("Container clicked");
                     },
                     child: Container(height: 75, width:MediaQuery.of(context).size.width*0.2,
@@ -61,16 +66,14 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                       borderRadius: BorderRadius.all(Radius.circular(50)),
                       color:Color.fromRGBO(236, 194, 0, 0),
                   ),
-                    child:  Center(child: Text('MODERN MAN', style: TextStyle(color: Color.fromRGBO(236, 194, 0, 0.9),fontSize: 30),)),
+                    child:  Center(child: Text('MODERN MAN', style: TextStyle(color: Color.fromRGBO(236, 194, 0, 0.9),fontSize: 32),)),
                   ),
 
                 ],
               )),
-
-
               SizedBox(height: 15),
-         AnimatedSize(
-           vsync: this,
+              AnimatedSize(
+            vsync: this,
             curve: Curves.easeInOutCubic,
             duration: Duration(milliseconds:2000),
             child:
