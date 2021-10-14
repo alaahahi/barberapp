@@ -1,5 +1,6 @@
 import 'package:barber/data/api.dart';
 import 'package:barber/models/SliderModel.dart';
+import 'package:barber/screens/Home/price.dart';
 import 'package:barber/screens/Search/RandomCategoryList.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +42,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                     onTap: (){
                       pushNewScreen(
                         context,
-                        screen: null,
+                        screen: PricePage(),
                       );
                       print("Container clicked");
                     },

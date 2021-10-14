@@ -1,3 +1,4 @@
+import 'package:barber/models/CategoriesModel.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:barber/data/api.dart';
 import 'package:barber/screens/Home/ActivationBox.dart';
@@ -19,8 +20,8 @@ class RandomGiftList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: context.read<Api>().getGift(),
-      builder: (context, AsyncSnapshot<List<GiftModel>> snapshot) {
+      future: context.read<Api>().getCategories(),
+      builder: (context, AsyncSnapshot<List<CategoryModel>> snapshot) {
         if (snapshot.hasError) {
           return Column(
             children: [
@@ -39,51 +40,15 @@ class RandomGiftList extends StatelessWidget {
         if (snapshot.hasData) {
           return ListView(
             children: [
-              ActivationBox(),
-              Card(
-                child: Consumer<Activation>(
-                  builder: (context, value, child) => ListTile(
-                    leading: Icon(Icons.money),
-                    title: Text('Activation'.tr()),
-                    subtitle: value.isActive == ActivationState.active
-                        ? Text('Active until'.tr() + ' ' + value.until,
-                        style: TextStyle(color: Colors.green))
-                        : value.isActive == ActivationState.notActive
-                        ? Text('Your account is not active'.tr(),
-                        style: TextStyle(color: Colors.red))
-                        : Text('Loading . . .'.tr()),
-                    trailing: value.isActive == ActivationState.active
-                        ? Icon(Icons.check, color: Colors.green)
-                        : value.isActive == ActivationState.notActive
-                        ? Icon(Icons.error, color: Colors.orange, size: 35)
-                        : CircularProgressIndicator(),
-                  ),
-                ),
+              SizedBox(
+                height: 30,
               ),
-              ActivationListTile(),
-              textTitle("Gift Points".tr(), Colors.blue),
+              textTitle(snapshot.data.first.toString(), Colors.blue),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 15),
                 child: Column(
                   children: renderPoints(context, snapshot.data),
                 ),
-              ),
-              textTitle("Gift Weekly".tr(), Colors.red),
-              Container(
-                padding: EdgeInsets.symmetric(horizontal: 15),
-                child: Column(
-                  children: renderWeekly(context, snapshot.data),
-                ),
-              ),
-              textTitle("Monthly Gifts".tr(), Colors.green),
-              Container(
-                padding: EdgeInsets.symmetric(horizontal: 15),
-                child: Column(
-                  children: renderMonthly(context, snapshot.data),
-                ),
-              ),
-              SizedBox(
-                height: 50,
               ),
             ],
           );
@@ -96,21 +61,13 @@ class RandomGiftList extends StatelessWidget {
     );
   }
 
-  List<Widget> renderPoints(BuildContext context, List<GiftModel> data) {
+  List<Widget> renderPoints(BuildContext context, List<CategoryModel> data) {
     return data.map((winner) {
-      if (winner.gift_type_id == 2) {
+      if (true) {
         return GiftButton(
-            textName: winner.giftTranslation.title,
-            imgItem: winner.icon,
-            level_points: winner.levelPoints.toString(),
-            onClick: () {
-              pushNewScreen(
-                context,
-                screen: showGift(
-                  giftModel: winner,
-                ),
-              );
-            });
+            textName: winner.title,
+            imgItem: winner.photo
+       );
       } else {
         return Container();
       }
