@@ -19,7 +19,8 @@ class RandomGiftList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
+    return
+      FutureBuilder(
       future: context.read<Api>().getCategories(),
       builder: (context, AsyncSnapshot<List<CategoryModel>> snapshot) {
         if (snapshot.hasError) {

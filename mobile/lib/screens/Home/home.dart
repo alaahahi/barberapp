@@ -9,6 +9,8 @@ import 'package:flutter/widgets.dart';
 import 'package:barber/widgets/CarouselBanner.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:provider/provider.dart';
+import 'package:page_transition/page_transition.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -38,23 +40,25 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
               child:
               Row(
                 children: [
-                  GestureDetector(
-                    onTap: (){
-                      pushNewScreen(
-                        context,
-                        screen: PricePage(),
-                      );
-                      print("Container clicked");
-                    },
-                    child: Container(height: 75, width:MediaQuery.of(context).size.width*0.2,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(50)),
-                        color:Color.fromRGBO(236, 194, 0, 0.9),
-                        image: DecorationImage(
-                          image: AssetImage("assets/images/dollar.png"), )
-                    ),
+                Container(height: 75, width:MediaQuery.of(context).size.width*0.2,
+                decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+                color:Color.fromRGBO(236, 194, 0, 0.9),
+              ),
+                child:  IconButton(
+                  icon: Icon(
+                    Icons.attach_money_outlined,
+                    color: Color.fromRGBO(0, 0, 0, 1),
+                    size: 50,
+                  ),
+                  onPressed: () =>   Navigator.push(
+                    context,
+                    PageTransition(
+                      type: PageTransitionType.bottomToTop,
+                      child: PricePage(),
                     ),
                   ),
+                )),
                   SizedBox(width:MediaQuery.of(context).size.width*0.1),
                   Container(height: 75, width:MediaQuery.of(context).size.width*0.4,    decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(50)),

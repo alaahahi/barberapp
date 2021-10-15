@@ -21,7 +21,6 @@ class Wishlist extends StatelessWidget {
       appBar: StyledAppBar(title: 'Wishlist'.tr()),
       body: ListView(
         children: [
-          RowTitle(title: 'favorit'.tr()),
           Container(
             height:  MediaQuery.of(context).size.height * 0.4,
             width: double.infinity,

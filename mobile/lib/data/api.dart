@@ -5,6 +5,7 @@ import 'dart:io';
 import 'package:barber/data/fetcher.dart';
 import 'package:barber/models/CategoriesModel.dart';
 import 'package:barber/models/CompanyModel.dart';
+import 'package:barber/models/PriceModel.dart';
 import 'package:barber/models/ProductModel.dart';
 import 'package:barber/models/OrderModel.dart';
 import 'package:barber/models/SearchResult.dart';
@@ -357,7 +358,37 @@ class Api extends Fetcher {
       }
     }
   }
-
+  Future<List<PriceModel>> getPrice() async {
+    String fileName = "PriceCacheData.json";
+    var cacheDir = await getTemporaryDirectory();
+    File file = new File(cacheDir.path + "/" + fileName);
+    if (await file.exists()) {
+      var jsonData = file.readAsStringSync();
+      List<dynamic> body = jsonDecode(jsonData);
+      List<PriceModel> users = body
+          .map(
+            (dynamic item) => PriceModel.fromJson(item),
+      )
+          .toList();
+      return users;
+    } else {
+      final response = await http.get(Uri.parse('$baseUrl/price'));
+      var tempDir = await getTemporaryDirectory();
+      File file = new File(tempDir.path + "/" + fileName);
+      file.writeAsStringSync(response.body, flush: true, mode: FileMode.write);
+      if (response.statusCode == 200) {
+        List<dynamic> body = jsonDecode(response.body);
+        List<PriceModel> users = body
+            .map(
+              (dynamic data) => PriceModel.fromJson(data),
+        )
+            .toList();
+        return users;
+      } else {
+        throw Exception('Failed to load Users from API');
+      }
+    }
+  }
   Future<UserInfoModel> getUserInfo({String Number}) async {
     print('UserInfoModel');
     return await Future.delayed(

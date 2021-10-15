@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:barber/widgets/common/LangaugeDropdown.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
 import 'package:barber/models/UserInfoModel.dart';
@@ -237,8 +238,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 title: Text('Language'.tr()),
                 trailing: LangaugeDropdown(
                   value: EasyLocalization.of(context).locale.languageCode,
-                  onChange: (value) {
+                  onChange: (value)  async {
                     EasyLocalization.of(context).setLocale(Locale(value));
+                    final appDir = await getTemporaryDirectory();
+
+                    if (appDir.existsSync()) {
+                      appDir.deleteSync(recursive: true);
+                    }
                   },
                 ),
               ),
