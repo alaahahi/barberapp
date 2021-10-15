@@ -134,7 +134,7 @@ class InfoCard extends StatelessWidget {
             ),
           ),
           Flexible(
-            flex: 4,
+            flex: 3,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -153,7 +153,7 @@ class InfoCard extends StatelessWidget {
                 ),
                 Text(
                   company.desc,
-                  maxLines: 1,
+                  maxLines: 3,
                   overflow: TextOverflow.ellipsis,
 //                    textAlign: TextAlign.right,
                   style: TextStyle(

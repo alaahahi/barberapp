@@ -70,30 +70,28 @@ class ListActionBar extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 2),
                   decoration: BoxDecoration(
-                    color:
-                        displayMode == DisplayMode.list ? Colors.black : null,
+                    color: Color.fromRGBO(236, 194, 0, 1),
                     borderRadius: BorderRadius.circular(6),
                   ),
                   child: Icon(
                     Icons.list,
-                    color:
-                        displayMode == DisplayMode.list ? Colors.white : null,
+                    color: displayMode == DisplayMode.list ? Colors.red: null,
                   ),
                 ),
               ),
+              SizedBox(width: 10,),
               GestureDetector(
                 onTap: () => changeDisplayMode(DisplayMode.grid),
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 2),
                   decoration: BoxDecoration(
-                    color:
-                        displayMode == DisplayMode.grid ? Colors.black : null,
+                    color:Color.fromRGBO(236, 194, 0, 1),
                     borderRadius: BorderRadius.circular(6),
                   ),
                   child: Icon(
                     Icons.grid_view,
                     color:
-                        displayMode == DisplayMode.grid ? Colors.white : null,
+                        displayMode == DisplayMode.grid ?Colors.red : null,
                   ),
                 ),
               ),

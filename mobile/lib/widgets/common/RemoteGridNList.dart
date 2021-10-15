@@ -23,12 +23,7 @@ class RemoteGridNList<T> extends StatelessWidget {
           return Center(child: CircularProgressIndicator());
         }
         if (snapshot.hasError) {
-          return renderIconTextMessage(
-            Icons.error_outline,
-            'Something does not add up'.tr() +
-                '\n' +
-                'Please try again later'.tr(),
-          );
+          return Container();
         }
         if (snapshot.hasData && snapshot.data.length > 0) {
           List<Widget> items = snapshot.data
@@ -58,10 +53,7 @@ class RemoteGridNList<T> extends StatelessWidget {
             );
           }
         }
-        return renderIconTextMessage(
-          Icons.warning_amber_outlined,
-          'Nothing found here'.tr(),
-        );
+        return Container();
       },
     );
   }

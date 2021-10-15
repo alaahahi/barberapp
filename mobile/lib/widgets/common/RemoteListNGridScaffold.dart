@@ -30,7 +30,7 @@ class RemoteListNGridScaffold<T> extends StatefulWidget {
 
 class _RemoteListNGridScaffoldState<T>
     extends State<RemoteListNGridScaffold<T>> {
-  DisplayMode displayMode = DisplayMode.list;
+  DisplayMode displayMode = DisplayMode.grid;
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +65,7 @@ class _RemoteListNGridScaffoldState<T>
                 ),
             ],
           ),
-          Divider(color: Colors.grey.shade200),
+          SizedBox(height: 10,),
           ListActionBar(
             displayMode: displayMode,
             changeDisplayMode: (DisplayMode d) {
